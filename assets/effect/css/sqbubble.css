@@ -110,21 +110,21 @@ body{
 0% {
     transform: translateY(0) rotate(0deg);
     opacity: 1;
-    border-radius: 100%;
+    border-radius: 30px;
 }
 30% {
     transform: translatex(50px) rotate(3deg);
     opacity: 1;
-    border-radius: 95%;
+    border-radius: 30px;
 }
 60% {
     transform: translatex(-100px) rotate(5deg);
     opacity: 1;
-    border-radius: 79%;
+    border-radius: 15px;
 }
 100% {
     transform: translateY(-1000px) rotate(720deg);
     opacity: 1;
-    border-radius: 52%;
+    border-radius: 15%;
 	}
 }
