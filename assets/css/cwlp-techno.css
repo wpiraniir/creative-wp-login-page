@@ -1,0 +1,56 @@
+body {
+		background-image: url(../images/techno-back.webp);
+		height: 100%;
+		background-position: bottom;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: #fff;
+}
+.login h1 a {
+	border: 2px solid #03a9f4;
+    box-sizing: content-box;
+    border-radius: 10px;
+    border-inline: none;
+	width: 84px !important;
+}
+.login form {
+    background: #11435699;
+    border: 2px solid #9b9597;
+    border-radius: 10px;
+	height: 270px;
+}
+.login #nav {
+    margin: -65px 0 0;
+}
+.login #login_error {
+    color: #000;
+}
+#login form p.submit {
+    width: 70%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#login form .button.button-primary {
+    border-color: #0b5590;
+    background: #3753ee;
+}
+.login #nav a, .login #backtoblog a, .login #nav a {
+	color: #fff;
+}
+#login {
+    width: 350px;
+}
+input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus {
+    border-color: #1be1fa;
+    box-shadow: 3px 3px 7px 1px #0e65ab;
+}
+.login #nav a:hover, .login #backtoblog a:hover, .login #nav a:hover {
+    color: #fff;
+	padding: 3px 15px;
+    border: 2px dashed #03a9f4;
+    transition: border 0.3s;
+}
