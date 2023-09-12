@@ -1,0 +1,50 @@
+body {
+		background-image: url(../images/red.webp);
+		height: 100%;
+		background-position: bottom;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: #fff;
+}
+.login h1 a {
+	border: 2px solid #e50909;
+    box-sizing: content-box;
+    border-radius: 10px;
+    border-inline: none;
+	width: 84px !important;
+}
+.login form {
+    background: #180000;
+	border: 2px solid #d60000;
+	border-radius: 10px;
+}
+#login form p.submit {
+    width: 70%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#login form .button.button-primary {
+    border-color: #e92d3f;
+    background: #db172a;
+}
+.login #nav a, .login #backtoblog a, .login #nav a {
+	color: #fff;
+}
+#login {
+    width: 350px;
+}
+input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus {
+    border-color: #e91313;
+    box-shadow: 3px 3px 7px 1px #b12222;
+}
+
+.login #nav a:hover, .login #backtoblog a:hover, .login #nav a:hover {
+    color: #fff;
+	padding: 3px 15px;
+    border: 2px dashed #ff5a5a;
+    transition: border 0.3s;
+}

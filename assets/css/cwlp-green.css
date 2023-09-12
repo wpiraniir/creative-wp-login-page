@@ -1,0 +1,77 @@
+body {
+    background: #259b29;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(22 208 80) 0%, rgb(14 117 65) 90% );
+    overflow: hidden;
+}
+.login h1 a {
+	border: 3px solid #27c82d;
+    box-sizing: content-box;
+    border-radius: 10px;
+    border-inline: none;
+	width: 84px !important;
+}
+.login form {
+    background: #ffffffb3;
+    border: 2px solid #289e2d;
+    border-radius: 10px;
+}
+.login label {
+    font-size: 16px;
+}
+
+#login form p.submit {
+    width: 100%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#login form .button.button-primary {
+    border-color: transparent;
+    background: rgb(46,231,29);
+    background: -moz-linear-gradient(194deg, rgba(46,231,29,1) 0%, rgba(20,182,8,1) 51%, rgba(27,223,33,1) 100%);
+    background: -webkit-linear-gradient(194deg, rgba(46,231,29,1) 0%, rgba(20,182,8,1) 51%, rgba(27,223,33,1) 100%);
+    background: linear-gradient(194deg, rgba(46,231,29,1) 0%, rgba(20,182,8,1) 51%, rgba(27,223,33,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2ee71d",endColorstr="#1bdf21",GradientType=1);
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.login #nav a, .login #backtoblog a, .login #nav a {
+	color: #fff;
+}
+#login {
+    width: 370px;
+}
+@media screen and (max-width: 565px) {
+	#login {
+    width: 335px;
+}
+}
+input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus {
+    border-color: #4caf50;
+    box-shadow: 3px 3px 7px 1px #4caf50;
+}
+
+.login #nav a:hover, .login #backtoblog a:hover, .login #nav a:hover {
+    color: #fff;
+	padding: 3px 15px;
+    border: 2px dashed #ff5a5a;
+    transition: border 0.3s;
+}
+.login h1 {
+    text-align: center;
+    margin-bottom: -20%;
+    padding-top: 20%;
+    z-index: 55;
+    position: relative;
+}
+
+.login form {
+    padding: 65px 0 0;
+}
+#login form p, .user-pass-wrap, #registerform p {
+    padding: 3px 25px;
+}
+.cwlp-icon-bar .close-bu {
+	color: #fff;
+}

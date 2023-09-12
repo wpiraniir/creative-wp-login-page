@@ -1,0 +1,64 @@
+body {
+		background: rgb(94,8,180);
+		background: -moz-linear-gradient(90deg, rgba(94,8,180,1) 0%, rgba(89,38,227,1) 35%, rgba(88,21,223,1) 63%, rgba(119,0,255,1) 100%);
+		background: -webkit-linear-gradient(90deg, rgba(94,8,180,1) 0%, rgba(89,38,227,1) 35%, rgba(88,21,223,1) 63%, rgba(119,0,255,1) 100%);
+		background: linear-gradient(90deg, rgba(94,8,180,1) 0%, rgba(89,38,227,1) 35%, rgba(88,21,223,1) 63%, rgba(119,0,255,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5e08b4",endColorstr="#7700ff",GradientType=1);
+		height: 100%;
+		color: #fff;
+		overflow: hidden;
+}
+
+.login h1 a {
+    border: 3px solid #2f057b;
+    box-sizing: content-box;
+    border-radius: 10px;
+    border-inline: none;
+    width: 90px !important;
+    height: 90px;
+}
+.login form {
+    background: #762cfa6b;
+    border: 2px solid #571cbf78;
+    border-radius: 10px;
+}
+#login form p.submit {
+    width: 70%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#login form .button.button-primary {
+    border-color: #4a13ac;
+    background: #4816a1;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px -10px #fffefe;
+    margin-bottom: -10px;
+}
+.login #nav a, .login #backtoblog a, .login #nav a {
+	color: #fff;
+}
+#login {
+    width: 350px;
+}
+@media screen and (max-width: 565px) {
+	#login {
+    width: 330px;
+}
+}
+input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus {
+    border-color: #4a1e98;
+    box-shadow: 3px 3px 7px 1px #390e85;
+}
+
+.login #nav a:hover, .login #backtoblog a:hover, .login #nav a:hover {
+    color: #fff;
+	padding: 3px 15px;
+    border: 2px dashed #ff5a5a;
+    transition: border 0.3s;
+}
+.login #login_error, .login .message, .login .success {
+    background-color: #5c32a79c;
+    background-color: rgba(92, 50, 167, 0.61);
+}

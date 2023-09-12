@@ -1,0 +1,41 @@
+﻿@font-face {
+    font-family: 'vazir';
+    src:	url('../fonts/vazir.woff2') format('woff2');
+    font-style:  normal;
+	font-display: swap;
+}
+@font-face {
+    font-family: 'yekan';
+    src:	url('../fonts/yekan.woff2') format('woff2');
+	font-display: swap;
+}
+@font-face {
+    font-family: 'samim';
+    src:	url('../fonts/samim.woff2') format('woff2');
+	font-display: swap;
+}
+@font-face {
+    font-family: 'shabnam';
+    src:	url('../fonts/shabnam.woff2') format('woff2');
+	font-display: swap;
+}
+@font-face {
+    font-family: 'estedad';
+    src:	url('../fonts/estedad.woff2') format('woff2');
+	font-display: swap;
+}
+@font-face {
+    font-family: 'lalezar';
+    src:	url('../fonts/lalezar.woff2') format('woff2');
+	font-display: swap;
+}
+@font-face {
+    font-family: 'sorkhpust';
+    src:	url('../fonts/sorkhpust.woff2') format('woff2');
+	font-display: swap;
+}
+@font-face {
+    font-family: 'casablanca';
+    src:	url('../fonts/casablanca.woff2') format('woff2');
+	font-display: swap;
+}
