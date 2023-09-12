@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'vazir';
+    src:	url('../fonts/vazir.woff2') format('woff2');
+    font-style:  normal;
+	font-display: swap;
+}
+html {
+	background-image: url("../images/cwlp-secure-one-desktop.webp");
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@media screen and (max-width: 560px){
+	html {
+		background-image: url("../images/cwlp-secure-one-mobile.webp");
+	}
+}
+body {
+	padding: 10px;
+	max-width: 100%;
+}
+body, h1, h2, pre, p, div  {
+	font-family: vazir;
+	font-size: 1.2rem;
+}
+#error-page {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+pre {
+	white-space: pre-wrap;
+}
+#cwlp-copyright {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    right: 35%;
+}
+@media only screen and (max-width:565px) {
+	#cwlp-copyright {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    right: 5%;
+}
+}
+.cwlpcopright a {
+    color: #ffffff;
+    text-decoration: none;
+}
