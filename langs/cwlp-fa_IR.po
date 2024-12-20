@@ -1,16 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Creative WP Login Page\n"
-"POT-Creation-Date: 2023-01-28 22:17+0330\n"
-"PO-Revision-Date: 2023-01-28 22:17+0330\n"
+"POT-Creation-Date: 2024-11-29 21:23+0330\n"
+"PO-Revision-Date: 2024-12-01 09:46+0330\n"
 "Last-Translator: مسعود نجار خدابخش <mgprop56@gmail.com>\n"
 "Language-Team: مسعود نجار خدابخش <mgprop56@gmail.com>\n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Poedit 3.4.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: cwlp.php\n"
@@ -21,233 +20,196 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: cwlp.php:31
+#: cwlp.php:24
 msgid "Settings"
-msgstr "تنظیمات "
+msgstr "تنظیمات"
 
-#: include/init.php:110 include/settings.php:313
+#: ⁨include/captcha - Copy.php⁩:60 include/captcha.php:72 include/settings.php:286
+msgid "Solve this"
+msgstr "اینو حل کن"
+
+#: ⁨include/captcha - Copy.php⁩:84 include/captcha.php:101
+msgid "Google reCAPTCHA verification failed."
+msgstr "کد کپچا درست نیست."
+
+#: ⁨include/captcha - Copy.php⁩:87 include/captcha.php:104
+msgid "Please complete the reCAPTCHA."
+msgstr "لطفا reCAPTCHA را تکمیل کنید."
+
+#: ⁨include/captcha - Copy.php⁩:93 include/captcha.php:111
+msgid "Captcha verification failed."
+msgstr "تأیید کپچا ناموفق بود."
+
+#: ⁨include/captcha - Copy.php⁩:96 include/captcha.php:114
+msgid "Please complete the captcha."
+msgstr "لطفا کپچا را کامل کنید."
+
+#: include/captcha.php:73
+msgid "Please enter the correct answer"
+msgstr "لطفا پاسخ صحیح وارد کنید"
+
+#: include/captcha.php:95
+msgid "Unable to verify reCAPTCHA. Please try again."
+msgstr "تأیید reCAPTCHA ممکن نیست. لطفا دوباره امتحان کنید."
+
+#: include/init.php:117 include/settings.php:231
 msgid "You do not have permission to access this page!"
 msgstr "شما اجازه دسترسی به این صفحه را ندارید!"
 
-#: include/init.php:112 include/init.php:114 include/init.php:116
+#: include/init.php:119 include/init.php:121 include/init.php:123
 msgid "Protected By Creative WP Login Page"
 msgstr "محافظت شده توسط صفحه ورود خلاقانه وردپرس"
 
-#: include/settings.php:30 include/settings.php:49
-msgid "Creative Wordpress Login Page Settings"
-msgstr "تنظیمات صفحه ورود خلاقانه وردپرس"
-
-#: include/settings.php:31
-msgid "CWLP Settings"
-msgstr "تنظیمات CWLP"
-
-#: include/settings.php:40 include/settings.php:62
-msgid "General"
-msgstr "اصلی"
-
-#: include/settings.php:41 include/settings.php:63
-msgid "Social"
-msgstr "شبکه های اجتماعی"
-
-#: include/settings.php:42 include/settings.php:64
-msgid "Login Security"
-msgstr "امنیت ورود"
-
-#: include/settings.php:43 include/settings.php:65
-msgid "Label Changer"
-msgstr "تغییر برچسب‌ها"
-
-#: include/settings.php:44 include/settings.php:66
-msgid "Effect manager"
-msgstr "مدیریت افکت"
-
-#: include/settings.php:105
-msgid ""
-"Save the settings after changing each option. The \"Default\" options do not "
-"apply any style of plugin to the login page and use the default WordPress "
-"values."
-msgstr ""
-"پس از تغییر هر گزینه ، تنظیمات را ذخیره کنید. گزینه \"پیش فرض\" هیچ استایلی "
-"از افزونه را در صفحه ورود اعمال نمیکند و از مقادیر پیش فرض وردپرس در صفحه "
-"ورود استفاده می‌شود."
-
-#: include/settings.php:106
-msgid ""
-"With this section, you can add a floating social media toolbar to your login "
-"page. Empty field for remove icon."
-msgstr ""
-"با استفاده از این بخش می توانید یک نوار ابزار رسانه های اجتماعی شناور را به "
-"صفحه ورود خود اضافه کنید. برای حذف آیکون ، فیلد مربوطه را خالی بگذارید."
-
-#: include/settings.php:107
-msgid ""
-"With this section, you can restrict access to the WordPress login and admin "
-"page to a specific address."
-msgstr ""
-"با استفاده از این بخش می توانید دسترسی به صفحه ورود وردپرس و مدیریت را به یک "
-"آدرس خاص محدود کنید."
-
-#: include/settings.php:108
-msgid ""
-"With this section, you can change label text of all thing in wordpress login "
-"page"
-msgstr "با استفاده از این بخش میتونید متن لیبل های صفحه ورود رو تغییر دهید"
-
-#: include/settings.php:109
-msgid ""
-"With this section, you can set some effect for show in wordpress login page"
-msgstr "با استفاده از این بخش میتونید افکت روی صفحه ورود تنظیم کنید"
-
-#: include/settings.php:116
+#: include/settings.php:9
 msgid "Style"
-msgstr "استایل"
+msgstr "طرح"
 
-#: include/settings.php:118
+#: include/settings.php:11
 msgid "Choose style of login page"
 msgstr "طرح صفحه ورود را انتخاب کنید"
 
-#: include/settings.php:123 include/settings.php:197
+#: include/settings.php:16 include/settings.php:90
 msgid "Default"
 msgstr "پیشفرض"
 
-#: include/settings.php:127
+#: include/settings.php:20
 msgid "Blue"
 msgstr "آبی"
 
-#: include/settings.php:131
+#: include/settings.php:24
 msgid "Red"
 msgstr "قرمز"
 
-#: include/settings.php:135
+#: include/settings.php:28
 msgid "Green"
 msgstr "سبز"
 
-#: include/settings.php:139
+#: include/settings.php:32
 msgid "Purple"
 msgstr "بنفش"
 
-#: include/settings.php:143
+#: include/settings.php:36
 msgid "Snow"
 msgstr "برف"
 
-#: include/settings.php:147
+#: include/settings.php:40
 msgid "Technology"
 msgstr "تکنولوژی"
 
-#: include/settings.php:151
+#: include/settings.php:44
 msgid "Learning"
 msgstr "آموزشی"
 
-#: include/settings.php:158
+#: include/settings.php:51
 msgid "Login form position"
 msgstr "موقعیت فرم ورود"
 
-#: include/settings.php:160
+#: include/settings.php:53
 msgid "Choose login form position. (Only for desktop)"
 msgstr "موقعیت فرم ورود را انتخاب کنید. (فقط برای دسکتاپ)"
 
-#: include/settings.php:163
+#: include/settings.php:56
 msgid "Left"
 msgstr "چپ"
 
-#: include/settings.php:164
+#: include/settings.php:57
 msgid "Center"
 msgstr "وسط"
 
-#: include/settings.php:165
+#: include/settings.php:58
 msgid "Right"
 msgstr "راست"
 
-#: include/settings.php:170
+#: include/settings.php:63
 msgid "Custom background image"
 msgstr "تصویر پس زمینه سفارشی"
 
-#: include/settings.php:172
+#: include/settings.php:65
 msgid ""
-"Select the appropriate image for the background of the login page. "
-"Recommended image size: 1280x 720"
+"Select the appropriate image for the background of the login page. Recommended "
+"image size: 1280x 720"
 msgstr ""
 "تصویری مناسب برای پس زمینه صفحه ورود انتخاب نمایید. اندازه تصویر پیشنهادی : "
 "۱۲۸۰x ۷۲۰"
 
-#: include/settings.php:178
+#: include/settings.php:71
 msgid "Custom background image from url"
 msgstr "تصویر پس زمینه سفارشی از آدرس"
 
-#: include/settings.php:180
+#: include/settings.php:73
 msgid ""
 "Enter the appropriate image link for the background of the login page. "
-"Recommended image size: 1280x 720. This image affects the above 2 items. "
-"Leave this field blank if you want to apply the default image of the plugin "
-"designs or the image uploaded by you on the login page."
+"Recommended image size: 1280x 720. This image affects the above 2 items. Leave "
+"this field blank if you want to apply the default image of the plugin designs "
+"or the image uploaded by you on the login page."
 msgstr ""
 "لینک تصویر مناسب برای پس زمینه صفحه ورود را وارد نمایید. اندازه تصویر "
 "پیشنهادی : ۱۲۸۰x ۷۲۰. این تصویر بر ۲ مورد بالا تاثیر گذار است. اگر میخواهید "
 "تصویر پیش فرض طرح های افزونه و یا تصویر آپلود شده توسط خودتون رو در صفحه ورود "
 "اعمال کنید ، این فیلد را خالی بگذارید."
 
-#: include/settings.php:185
+#: include/settings.php:78
 msgid "Box Shadow"
 msgstr "سایه جعبه"
 
-#: include/settings.php:187
+#: include/settings.php:80
 msgid "This option adds a shadow to the outer box of the login box."
 msgstr "این گزینه سایه ای به کادر بیرونی جعبه ورود اضافه میکند."
 
-#: include/settings.php:192
+#: include/settings.php:85
 msgid "Font family"
-msgstr "خانواده فوت"
+msgstr "خانواده فونت"
 
-#: include/settings.php:194
+#: include/settings.php:87
 msgid "Choose Font of login page text"
 msgstr "فونت متن صفحه ورود را انتخاب کنید"
 
-#: include/settings.php:198
+#: include/settings.php:91
 msgid "Vazir"
 msgstr "وزیر"
 
-#: include/settings.php:199
+#: include/settings.php:92
 msgid "Yekan"
 msgstr "یکان"
 
-#: include/settings.php:200
+#: include/settings.php:93
 msgid "Samim"
 msgstr "صمیم"
 
-#: include/settings.php:201
+#: include/settings.php:94
 msgid "Shabnam"
 msgstr "شبنم"
 
-#: include/settings.php:202
+#: include/settings.php:95
 msgid "Estedad"
 msgstr "استعداد"
 
-#: include/settings.php:203
+#: include/settings.php:96
 msgid "Lalezar"
 msgstr "لاله زار"
 
-#: include/settings.php:204
+#: include/settings.php:97
 msgid "SorkhPust"
 msgstr "سرخ‌پوست"
 
-#: include/settings.php:205
+#: include/settings.php:98
 msgid "Casablanca"
 msgstr "کازابلانکا"
 
-#: include/settings.php:210
+#: include/settings.php:103
 msgid "Change Logo URL To Home"
 msgstr "تغییر لینک لوگو به صفحه اصلی"
 
-#: include/settings.php:212
+#: include/settings.php:105
 msgid ""
 "This option changes the URL of the logo on the login page to the main page."
 msgstr "این گزینه URL لوگو را در صفحه ورود به صفحه اصلی تغییر می دهد."
 
-#: include/settings.php:217
+#: include/settings.php:110
 msgid "Custom login logo"
 msgstr "لوگوی ورود سفارشی"
 
-#: include/settings.php:219
+#: include/settings.php:112
 msgid ""
 "This option replace default wordpress logo with your custom uploaded logo. "
 "Please upload image in square size like: 256x256"
@@ -255,89 +217,141 @@ msgstr ""
 "این گزینه لوگوی سفارشی آپلود شده شما را با لوگوی پیش فرض وردپرس در صفحه ورود "
 "جایگزین میکند. لطفا تصویر مربعی آپلود کنید مثلا 256 در 256"
 
-#: include/settings.php:225
+#: include/settings.php:118
 msgid "Language switcher"
 msgstr "تغییردهنده زبان"
 
-#: include/settings.php:227
+#: include/settings.php:120
 msgid "This option can delete the language switcher section on the login page."
 msgstr "این گزینه بخش تغییر زبان در صفحه ورود را حذف میکند."
 
-#: include/settings.php:243
+#: include/settings.php:127
+msgid "Captcha Mode"
+msgstr "حالت کپچا"
+
+#: include/settings.php:129
+msgid "Select the captcha mode you want to use."
+msgstr "حالت کپچای مورد نظر برای استفاده را انتخاب کنید."
+
+#: include/settings.php:132
+msgid "Disable"
+msgstr "غیر فعال"
+
+#: include/settings.php:133
+msgid "Google reCAPTCHA(v2)"
+msgstr "ریکپچای گوگل(نسخه 2)"
+
+#: include/settings.php:134
+msgid "Simple Math Captcha"
+msgstr "کپچای ساده ریاضی"
+
+#: include/settings.php:139
+msgid "reCAPTCHA Site Key"
+msgstr "کلید سایت گوگل Recaptcha"
+
+#: include/settings.php:141
+msgid "Enter your Google reCAPTCHA site key."
+msgstr "کلید سایت Google reCAPTCHA خود را وارد کنید."
+
+#: include/settings.php:148
+msgid "reCAPTCHA Secret Key"
+msgstr "کلید مخفی reCAPTCHA"
+
+#: include/settings.php:150
+msgid "Enter your Google reCAPTCHA secret key."
+msgstr "کلید مخفی Google reCAPTCHA خود را وارد کنید."
+
+#: include/settings.php:158
+msgid "Display mode"
+msgstr "حالت نمایش"
+
+#: include/settings.php:160
+msgid "Choose how to display icons"
+msgstr "نحوه نمایش نمادها را انتخاب کنید"
+
+#: include/settings.php:163
+msgid "Vertical"
+msgstr "عمودی"
+
+#: include/settings.php:164
+msgid "Horizontal"
+msgstr "افقی"
+
+#: include/settings.php:169
 msgid "<i class=\"fab fa-instagram\"></i> Instagram username"
 msgstr "<i class=\"fab fa-instagram\"></i> نام کاربری اینستاگرام"
 
-#: include/settings.php:245
+#: include/settings.php:171
 msgid "Type your Instagram username. ex: masoud.nkh"
 msgstr "نام کاربری اینستاگرام خود را تایپ کنید. مثال: masoud_nkh"
 
-#: include/settings.php:250
+#: include/settings.php:176
 msgid "<i class=\"fab fa-telegram\"></i> Telegram username"
 msgstr "<i class=\"fab fa-telegram\"></i> نام کاربری تلگرام"
 
-#: include/settings.php:252
+#: include/settings.php:178
 msgid "Type your Telegram username. ex: masoud_nkh"
 msgstr "نام کاربری تلگرام خود را تایپ کنید. مثال: masoud_nkh"
 
-#: include/settings.php:257
+#: include/settings.php:183
 msgid "<i class=\"fab fa-pinterest\"></i> Pinterest username"
 msgstr "<i class=\"fab fa-pinterest\"></i> نام کاربری پینترست"
 
-#: include/settings.php:259
+#: include/settings.php:185
 msgid "Type your Pinterest username. ex: masoudkhodabakhsh"
 msgstr "نام کاربری پینترست خود را تایپ کنید. مثال: masoudkhodabakhsh"
 
-#: include/settings.php:264
+#: include/settings.php:190
 msgid "<i class=\"fab fa-whatsapp\"></i> Whatsapp number"
 msgstr "<i class=\"fab fa-whatsapp\"></i> شماره واتس‌اپ"
 
-#: include/settings.php:266
+#: include/settings.php:192
 msgid "Type your Whatsapp phone number with country code. ex: 989211234567"
 msgstr "شماره تلفن واتساپ خود را با کد کشور تایپ کنید. مثال: 989211234567"
 
-#: include/settings.php:271
+#: include/settings.php:197
 msgid "<i class=\"fab fa-facebook\"></i> Facebook username"
 msgstr "<i class=\"fab fa-facebook\"></i> نام کاربری فیس بوک"
 
-#: include/settings.php:273
+#: include/settings.php:199
 msgid "Type your Facebook username. ex: masoudkhodabakhsh"
 msgstr "نام کاربری فیسبوک خود را تایپ کنید. مثال: masoudkhodabakhsh"
 
-#: include/settings.php:278
-msgid "<i class=\"fab fa-twitter\"></i> Twitter username"
-msgstr "<i class=\"fab fa-twitter\"></i> نام کاربری توییتر"
+#: include/settings.php:204
+msgid "<i class=\"fab fa-x-twitter\"></i> Twitter username"
+msgstr "<i class=\"fab fa-x-twitter\"></i> نام کاربری توییتر"
 
-#: include/settings.php:280
+#: include/settings.php:206
 msgid "Type your Twitter username. ex: masoudkhodabakhsh"
 msgstr "نام کاربری توییتر خود را تایپ کنید. مثال: masoudkhodabakhsh"
 
-#: include/settings.php:285
-msgid "<i class=\"fab fa-linkedin-in\"></i> Linkedin username"
-msgstr "<i class=\"fab fa-linkedin-in\"></i> نام کاربری لینکدین"
+#: include/settings.php:211
+msgid "<i class=\"fab fa-linkedin\"></i> Linkedin username"
+msgstr "<i class=\"fab fa-linkedin\"></i> نام کاربری لینکدین"
 
-#: include/settings.php:287
+#: include/settings.php:213
 msgid "Type your Linkedin username. ex: masoudkhodabakhsh"
 msgstr "نام کاربری لینکیداین خود را تایپ کنید. مثال: masoudkhodabakhsh"
 
-#: include/settings.php:301
+#: include/settings.php:219
 msgid "Custom Login URL"
 msgstr "آدرس ورود سفارشی"
 
-#: include/settings.php:303
+#: include/settings.php:221
 msgid ""
 "Type the address you want to use, for example: secadmin. Please use only "
-"English letters and numbers (Nothing else works). The WordPress admin page "
-"will be available through this address, for example: https://site.com/secadmin"
+"English letters and numbers (Nothing else works). The WordPress admin page will "
+"be available through this address, for example: https://site.com/secadmin"
 msgstr ""
-"آدرسی که میخواهید استفاده کنید وارد کنید، مثلا: secadmin. لطفا فقط حروف و "
-"اعداد انگلیسی استفاده کنید(چیز دیگه کار نمیده). صفحه مدیریت از این به بعد با "
-"این آدرس در دسترس قرار میگیره، مثلا : https://site.com/secadmin"
+"آدرسی که میخواهید استفاده کنید وارد کنید، مثلا: secadmin. لطفا فقط حروف و اعداد "
+"انگلیسی استفاده کنید(چیز دیگه کار نمیده). صفحه مدیریت از این به بعد با این آدرس "
+"در دسترس قرار میگیره، مثلا : https://site.com/secadmin"
 
-#: include/settings.php:309
+#: include/settings.php:227
 msgid "Error message"
 msgstr "پیام خطا"
 
-#: include/settings.php:311
+#: include/settings.php:229
 msgid ""
 "Enter the message you want to display when a person wants to log in with wp-"
 "admin or wp-login URLs"
@@ -345,101 +359,172 @@ msgstr ""
 "پیامی که میخواهید هنگام ورود یک کاربر با آدرس های wp-login یا wp-admin نمایش "
 "داده شود را وارد کنید"
 
-#: include/settings.php:317
+#: include/settings.php:235
 msgid "Error page style"
 msgstr "طرح صفحه خطا"
 
-#: include/settings.php:319
+#: include/settings.php:237
 msgid "Select access error page design style."
 msgstr "طرح صفحه خطای دسترسی را انتخاب کنید."
 
-#: include/settings.php:323
+#: include/settings.php:241
 msgid "Default wordpress style"
 msgstr "طرح پیش فرض وردپرس"
 
-#: include/settings.php:324
+#: include/settings.php:242
 msgid "Style 1"
-msgstr "طرح 1"
+msgstr "استایل 1"
 
-#: include/settings.php:325
+#: include/settings.php:243
 msgid "Style 2"
-msgstr "طرح 2"
+msgstr "استایل 2"
 
-#: include/settings.php:340
+#: include/settings.php:251
 msgid "username or email address"
 msgstr "نام کاربری یا نشانی ایمیل"
 
-#: include/settings.php:342
+#: include/settings.php:253
 msgid "Change <span class=\"lable\">username or email address</span> label text"
 msgstr "تغییر متن لیبل <span class=\"lable\">نام کاربری یا نشانی ایمیل</span>"
 
-#: include/settings.php:347
+#: include/settings.php:258
 msgid "Password"
 msgstr "رمز عبور"
 
-#: include/settings.php:349
+#: include/settings.php:260
 msgid "Change <span class=\"lable\">Password</span> label text"
 msgstr "تغییر متن لیبل <span class=\"lable\">رمز عبور</span>"
 
-#: include/settings.php:354
+#: include/settings.php:265
 msgid "Remember me"
 msgstr "مرا به خاطر بسپار"
 
-#: include/settings.php:356
+#: include/settings.php:267
 msgid "Change <span class=\"lable\">Remember me</span> label text"
 msgstr "تغییر متن لیبل <span class=\"lable\">مرا به خاطر بسپار</span>"
 
-#: include/settings.php:361
+#: include/settings.php:272
 msgid "Lost your password?"
 msgstr "رمز عبورتان را گم کرده اید؟"
 
-#: include/settings.php:363
+#: include/settings.php:274
 msgid "Change <span class=\"lable\">Lost your password?</span> label text"
 msgstr "تغییر متن لیبل <span class=\"lable\">رمز عبورتان را گم کرده‌اید؟</span>"
 
-#: include/settings.php:368
+#: include/settings.php:279
 msgid "Log in"
 msgstr "ورود"
 
-#: include/settings.php:370
+#: include/settings.php:281
 msgid "Change <span class=\"lable\">Log in</span> button label text"
 msgstr "تغییر متن لیبل <span class=\"lable\">ورود</span>"
 
-#: include/settings.php:386
+#: include/settings.php:288
+msgid ""
+"Change <span class=\"lable\">Solve this</span> text when Simple math captcha "
+"enabled"
+msgstr ""
+"تغییر متن <span class=\"lable\">اینو حل کن</span> هنگامی که کپچای ساده ریاضی "
+"فعال هست"
+
+#: include/settings.php:303
 msgid "WP login page effect style"
 msgstr "طرح افکت صفحه ورود"
 
-#: include/settings.php:388
+#: include/settings.php:305
 msgid "Select effect style if you want to have beautifull wordpress login page"
 msgstr "افکتی که میخواهید در صفحه ورود داشته باشید را انتخاب کنید"
 
-#: include/settings.php:392
+#: include/settings.php:309
 msgid "Without effect"
 msgstr "بدون افکت"
 
-#: include/settings.php:393
+#: include/settings.php:310
 msgid "Square bubble"
 msgstr "حباب مربعی"
 
-#: include/settings.php:394
+#: include/settings.php:311
 msgid "Circle bubble"
 msgstr "حباب دایره‌ای"
 
-#: include/settings.php:395
+#: include/settings.php:312
 msgid "Pulsating ring"
 msgstr "حلقه‌های نبض‌دار"
 
-#: include/settings.php:442
-msgid "Show/Hide styles"
-msgstr "نمایش/پنهان کردن طرح‌ها"
+#: include/settings.php:313
+msgid "Wandering balloon"
+msgstr "بالن سرگردان"
 
-#: include/settings.php:520
+#: include/settings.php:446
 msgid "Select"
 msgstr "انتخاب"
 
-#: include/settings.php:524
+#: include/settings.php:450
 msgid "Clear"
 msgstr "پاکسازی"
+
+#: include/settings.php:528 include/settings.php:737
+msgid "Creative Wordpress Login Page Settings"
+msgstr "تنظیمات صفحه ورود خلاقانه وردپرس"
+
+#: include/settings.php:532
+msgid "General"
+msgstr "اصلی"
+
+#: include/settings.php:533
+msgid "captcha"
+msgstr "کد امنیتی"
+
+#: include/settings.php:534
+msgid "Social"
+msgstr "شبکه های اجتماعی"
+
+#: include/settings.php:535
+msgid "Login Security"
+msgstr "امنیت ورود"
+
+#: include/settings.php:536
+msgid "Label Changer"
+msgstr "تغییر برچسب‌ها"
+
+#: include/settings.php:537
+msgid "Effect manager"
+msgstr "مدیریت افکت"
+
+#: include/settings.php:553
+msgid "You can protect your login form with captcha"
+msgstr "شما می توانید فرم ورود خود را با کپچا محافظت کنید"
+
+#: include/settings.php:558
+msgid ""
+"With this section, you can add a floating social media toolbar to your login "
+"page. Empty field for remove icon."
+msgstr ""
+"با استفاده از این بخش می توانید یک نوار ابزار رسانه های اجتماعی شناور را به "
+"صفحه ورود خود اضافه کنید. برای حذف آیکون ، فیلد مربوطه را خالی بگذارید."
+
+#: include/settings.php:563
+msgid ""
+"With this section, you can restrict access to the WordPress login and admin "
+"page to a specific address."
+msgstr ""
+"با استفاده از این بخش می توانید دسترسی به صفحه ورود وردپرس و مدیریت را به یک "
+"آدرس خاص محدود کنید."
+
+#: include/settings.php:568
+msgid ""
+"With this section, you can change label text of all thing in wordpress login "
+"page"
+msgstr "با استفاده از این بخش میتونید متن لیبل های صفحه ورود رو تغییر دهید"
+
+#: include/settings.php:573
+msgid ""
+"With this section, you can set some effect for show in wordpress login page"
+msgstr "با استفاده از این بخش میتونید افکت روی صفحه ورود تنظیم کنید"
+
+#: include/settings.php:738
+msgid "CWLP Settings"
+msgstr "تنظیمات CWLP"
 
 #. Plugin Name of the plugin/theme
 msgid "Creative WP Login Page"
@@ -450,39 +535,82 @@ msgid "https://wordpress.org/plugins/creative-wp-login-page/"
 msgstr "https://wordpress.org/plugins/creative-wp-login-page/"
 
 #. Description of the plugin/theme
-msgid ""
-"Creative WordPress login page plugin makes your login page more beautiful."
+msgid "Creative WordPress login page plugin makes your login page more beautiful."
 msgstr "افزونه صفحه ورود خلاقانه وردپرس ، صفحه ورود سایت شما را زیباتر میکند."
 
 #. Author of the plugin/theme
-msgid "Masoud NKH"
-msgstr "مسعود نجار خدابخش"
+msgid "WP irani"
+msgstr "وردپرس ایرانی"
 
 #. Author URI of the plugin/theme
-msgid "https://herbana.ir/"
-msgstr "https://herbana.ir/"
-
-#~ msgid "Top"
-#~ msgstr "بالا"
-
-#~ msgid "Bottom"
-#~ msgstr "پائین"
-
-#~ msgid "Top left"
-#~ msgstr "بالا چپ"
-
-#~ msgid "Top right"
-#~ msgstr "بالا راست"
-
-#~ msgid "Bottom left"
-#~ msgstr "پایین چپ"
-
-#~ msgid "Bottom right"
-#~ msgstr "پایین راست"
+msgid "https://wpirani.ir/"
+msgstr ""
 
 #, fuzzy
-#~ msgid "This has been disabled."
-#~ msgstr "این غیرفعال شده است"
+#~| msgid "Default"
+#~ msgid "Restore Defaults"
+#~ msgstr "پیشفرض"
 
-#~ msgid "Change username or email address label text"
-#~ msgstr "نام کاربری یا متن برچسب آدرس ایمیل را تغییر دهید"
+#, fuzzy
+#~| msgid "Default wordpress style"
+#~ msgid "Default options restored."
+#~ msgstr "طرح پیش فرض وردپرس"
+
+#, fuzzy
+#~| msgid "Horizontal"
+#~ msgid "Repeat Horizontally"
+#~ msgstr "افقی"
+
+#, fuzzy
+#~| msgid "Vertical"
+#~ msgid "Repeat Vertically"
+#~ msgstr "عمودی"
+
+#, fuzzy
+#~| msgid "Left"
+#~ msgid "Top Left"
+#~ msgstr "چپ"
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgid "Top Center"
+#~ msgstr "وسط"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgid "Top Right"
+#~ msgstr "راست"
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgid "Middle Center"
+#~ msgstr "وسط"
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgid "Bottom Center"
+#~ msgstr "وسط"
+
+#~ msgid "Show/Hide styles"
+#~ msgstr "نمایش/پنهان کردن طرح‌ها"
+
+#~ msgid ""
+#~ "Save the settings after changing each option. The \"Default\" options do not "
+#~ "apply any style of plugin to the login page and use the default WordPress "
+#~ "values."
+#~ msgstr ""
+#~ "پس از تغییر هر گزینه ، تنظیمات را ذخیره کنید. گزینه \"پیش فرض\" هیچ استایلی "
+#~ "از افزونه را در صفحه ورود اعمال نمیکند و از مقادیر پیش فرض وردپرس در صفحه "
+#~ "ورود استفاده می‌شود."
+
+#, fuzzy
+#~| msgid ""
+#~| "With this section, you can add a floating social media toolbar to your "
+#~| "login page. Empty field for remove icon."
+#~ msgid "With ta floating social media toolbar to your love icon."
+#~ msgstr ""
+#~ "با استفاده از این بخش می توانید یک نوار ابزار رسانه های اجتماعی شناور را به "
+#~ "صفحه ورود خود اضافه کنید. برای حذف آیکون ، فیلد مربوطه را خالی بگذارید."
+
+#~ msgid "Masoud NKH"
+#~ msgstr "مسعود نجار خدابخش"

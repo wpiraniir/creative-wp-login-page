@@ -9,6 +9,9 @@ body {
 		background-size: cover;
 		color: #fff;
 }
+.login #login_error {
+    color: #000;
+}
 .login h1 a {
     border: 2px solid #4caf50;
     box-sizing: content-box;

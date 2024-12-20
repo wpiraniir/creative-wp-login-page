@@ -1,11 +1,11 @@
 === Creative WP Login Page ===
 Contributors: masoudnkh
-Donate link: https://idpay.ir/masoud-nkh
-Tags: login page, creative login page, login, signin, login page customizer, custom login, login style, login box shadow
+Donate link: https://zarinp.al/wpirani.ir
+Tags: login page, creative login page, login, login page customizer, custom login
 Requires at least: 5.1
-Tested up to: 6.2.2
-Stable tag: 7.7
-Requires PHP: 7.0
+Tested up to: 6.7.1
+Stable tag: 9.2
+Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
  
@@ -18,6 +18,7 @@ It will also be added to the plugin in the near future
 
 = Current plugin features =
 * Choose login page design from 7 designs
+* Ability to adding a security code (captcha) to the login page with two different methods
 * Ability to set the login page wallpaper by address or upload
 * Change the default WordPress logo to your liking
 * Change the logo link to the main page of the site
@@ -51,17 +52,52 @@ It will also be added to the plugin in the near future
 4. You can now view the changes made to the login page by going to your site login page
 
 == Screenshots ==
-1. **Settings.** The simple & easy configure plugin ( RTL ).
-2. **Settings.** The simple & easy configure plugin ( LTR ).
-3. **login page preview.** Technology style ( LTR )
-4. **login page preview.** Technology style ( RTL )
-5. **Floating social toolbar.** Show Social network icon with link in login page ( LTR )
-6. **Floating social toolbar.** Show Social network icon with link in login page ( RTL )
-7. **Login page preview ** Custom background on technology style
-8. **Login security setting ** ( RTL )
-9. **Login security setting ** ( LTR )
+1. **Custom Login Page Preview.** (RTL).
+2. **Custom Login Page Preview.** (LTR).
+3. **General Settings Tab.** (RTL)
+4. **General Settings Tab.** (LTR)
+5. **Change Login URL Settings **Change wp-admin Address with Display Message (RTL)
+6. **Change Login URL Settings **Change wp-admin Address with Display Message (LTR)
+7. **Change Login Form Position**
+8. **Login Form Captcha Settings**
+9. **Change Login Form Text Settings**
 
 == Changelog ==
+= 9.2 - 2024-12-01 =
+* Fixed: Interference with REST API and PHP Active Session
+* Improving the security of CAPTCHA codes
+
+= 9.1 - 2024-12-01 =
+* Fixed: login form size issue when default style and captcha are enabled
+* Fixed: Changing the keyboard to numbers when a simple math captcha is enabled and the user is trying to solve the math problem to prevent text entry.
+* Fixed: some css problems in social icons and close icon you reported
+* Performance improvement: Remove unused icons
+* Change: twitter icon with X icon
+* UI Improvement: Apply the plugin's default font to some plugin fields
+* Minor changes to the settings interface
+* CAPTCHA Improvement: Changed the display of simple math captcha when a math subtraction problem is displayed and the user has to calculate with a negative number below 0, such as 5 minus 6 which is -1. (Now only small numbers are subtracted from large numbers)
+* Performance improvement: Changed the ability to add simple text as an error message in the "Login Security" section to adding advanced text such as bold text, links, etc.
+* Ability to change the "Solve this" text when simple math captcha is enabled
+
+= 9.0 - 2024-11-18 =
+* Improved user interface
+* Switch between settings tabs without changing the page
+* Added the possibility of adding a security code (captcha) to the login page with two different methods
+* Optimization of plugin codes
+* Remove additional codes from the plugin
+* Fix the problems you reported
+* Change tab icons
+* Improved performance of deleting plugin settings from the database when deleting the plugin
+* Compatibility with WP version 6.7
+
+= 8.0 - 2024-01-15 =
+* Add: New Login page effect ( Wandering balloon )
+* Add: Option to change how to display social icons
+* Fix: Square bubble and Circle bubble effect ( CSS )
+* Fix: Some small problems you reported
+* Improve: Performance and Security
+* Optimize: Some PHP and JS codes
+
 = 7.7 - 2023-02-21 =
 * Disable redirect to plugin settings after installation
 * Remove fontawesome ttf file for reduce plugin size
@@ -152,3 +188,9 @@ It will also be added to the plugin in the near future
 
 = 1.0 - 2021-09-29 =
 * First Release
+
+
+== Upgrade Notice ==
+= 9.2 =
+* Fixed: Interference with REST API and PHP Active Session
+* Improving the security of CAPTCHA codes

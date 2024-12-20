@@ -1,5 +1,13 @@
+.fa {
+    font-family: 'Font Awesome 6 Brands';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    vertical-align: middle;
+}
 .adoni {
     font-size: 1.4rem;
+	padding: 4px 2px 2px 4px !important;
 }
 .cwlp-icon-bar {
   position: fixed;
@@ -14,17 +22,29 @@
     top: 90%;
 	}
 }
+/* .cwlp-icon-bar a {
+    text-align: center;
+    padding: 5px 8px 10px 8px;
+    transition: all 0.3s ease;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+	text-decoration: none !important;
+} */
 .cwlp-icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 7px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 22px;
-  width: 25px;
-  height: 25px;
-  border-radius: 50px;
-  margin-bottom: 5px;
+    display: block;
+    text-align: center;
+    padding: 7px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 22px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    text-decoration: none !important;
 }
 @media screen and (max-width: 565px) {
 	.cwlp-icon-bar a {
@@ -71,6 +91,9 @@
   opacity: 0;
 }
 .close-bu {
-bottom: 5px;
-margin-left: 5px
+    bottom: 5px;
+    margin-left: 5px;
+    background: #000;
+    border-radius: 50%;
+    padding: 2px;
 }

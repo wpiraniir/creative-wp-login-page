@@ -1,11 +1,10 @@
-body{
+body {
     overflow: hidden;
 }
-.area{
-    background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
-    width: 100%;
-    height:auto;
+.area {
+  background: linear-gradient(to left, #8f94fb, #4e54c8);
+  width: 100%;
+  height: auto;
 }
 
 .clp-shape{
@@ -25,7 +24,7 @@ body{
     width: 20px;
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
-    animation: animate 20s linear infinite;
+    animation: bubanimate 20s linear infinite;
     bottom: -50px;
 	z-index: -9999999;
 }
@@ -106,7 +105,7 @@ body{
     animation-duration: 11s;
 }
 
-@keyframes animate {
+@keyframes bubanimate {
 0% {
     transform: translateY(0) rotate(0deg);
     opacity: 1;

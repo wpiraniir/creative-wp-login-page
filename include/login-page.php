@@ -252,6 +252,11 @@ function gettext_filter($translation, $orig, $domain) {
             $translation = get_option( 'cwlplabelogin' );
 		}
             break;
+		case 'Solve this';
+		if ( ! empty( get_option( 'cwlpllabelsolvethis' ) ) ) {
+            $translation = get_option( 'cwlpllabelsolvethis' );
+		}
+            break;
     }
     return $translation;
 }

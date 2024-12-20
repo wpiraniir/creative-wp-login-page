@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Creative WP Login Page\n"
-"POT-Creation-Date: 2023-01-28 22:17+0330\n"
+"POT-Creation-Date: 2024-11-29 21:23+0330\n"
 "PO-Revision-Date: 2022-05-14 07:51+0430\n"
 "Last-Translator: مسعود نجار خدابخش <mgprop56@gmail.com>\n"
 "Language-Team: مسعود نجار خدابخش <mgprop56@gmail.com>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Poedit 3.4.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: cwlp.php\n"
@@ -21,151 +21,122 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: cwlp.php:31
+#: cwlp.php:24
 msgid "Settings"
 msgstr ""
 
-#: include/init.php:110 include/settings.php:313
+#: ⁨include/captcha - Copy.php⁩:60 include/captcha.php:72
+#: include/settings.php:286
+msgid "Solve this"
+msgstr ""
+
+#: ⁨include/captcha - Copy.php⁩:84 include/captcha.php:101
+msgid "Google reCAPTCHA verification failed."
+msgstr ""
+
+#: ⁨include/captcha - Copy.php⁩:87 include/captcha.php:104
+msgid "Please complete the reCAPTCHA."
+msgstr ""
+
+#: ⁨include/captcha - Copy.php⁩:93 include/captcha.php:111
+msgid "Captcha verification failed."
+msgstr ""
+
+#: ⁨include/captcha - Copy.php⁩:96 include/captcha.php:114
+msgid "Please complete the captcha."
+msgstr ""
+
+#: include/captcha.php:73
+msgid "Please enter the correct answer"
+msgstr ""
+
+#: include/captcha.php:95
+msgid "Unable to verify reCAPTCHA. Please try again."
+msgstr ""
+
+#: include/init.php:117 include/settings.php:231
 msgid "You do not have permission to access this page!"
 msgstr ""
 
-#: include/init.php:112 include/init.php:114 include/init.php:116
+#: include/init.php:119 include/init.php:121 include/init.php:123
 msgid "Protected By Creative WP Login Page"
 msgstr ""
 
-#: include/settings.php:30 include/settings.php:49
-msgid "Creative Wordpress Login Page Settings"
-msgstr ""
-
-#: include/settings.php:31
-msgid "CWLP Settings"
-msgstr ""
-
-#: include/settings.php:40 include/settings.php:62
-msgid "General"
-msgstr ""
-
-#: include/settings.php:41 include/settings.php:63
-msgid "Social"
-msgstr ""
-
-#: include/settings.php:42 include/settings.php:64
-msgid "Login Security"
-msgstr ""
-
-#: include/settings.php:43 include/settings.php:65
-msgid "Label Changer"
-msgstr ""
-
-#: include/settings.php:44 include/settings.php:66
-msgid "Effect manager"
-msgstr ""
-
-#: include/settings.php:105
-msgid ""
-"Save the settings after changing each option. The \"Default\" options do not "
-"apply any style of plugin to the login page and use the default WordPress "
-"values."
-msgstr ""
-
-#: include/settings.php:106
-msgid ""
-"With this section, you can add a floating social media toolbar to your login "
-"page. Empty field for remove icon."
-msgstr ""
-
-#: include/settings.php:107
-msgid ""
-"With this section, you can restrict access to the WordPress login and admin "
-"page to a specific address."
-msgstr ""
-
-#: include/settings.php:108
-msgid ""
-"With this section, you can change label text of all thing in wordpress login "
-"page"
-msgstr ""
-
-#: include/settings.php:109
-msgid ""
-"With this section, you can set some effect for show in wordpress login page"
-msgstr ""
-
-#: include/settings.php:116
+#: include/settings.php:9
 msgid "Style"
 msgstr ""
 
-#: include/settings.php:118
+#: include/settings.php:11
 msgid "Choose style of login page"
 msgstr ""
 
-#: include/settings.php:123 include/settings.php:197
+#: include/settings.php:16 include/settings.php:90
 msgid "Default"
 msgstr ""
 
-#: include/settings.php:127
+#: include/settings.php:20
 msgid "Blue"
 msgstr ""
 
-#: include/settings.php:131
+#: include/settings.php:24
 msgid "Red"
 msgstr ""
 
-#: include/settings.php:135
+#: include/settings.php:28
 msgid "Green"
 msgstr ""
 
-#: include/settings.php:139
+#: include/settings.php:32
 msgid "Purple"
 msgstr ""
 
-#: include/settings.php:143
+#: include/settings.php:36
 msgid "Snow"
 msgstr ""
 
-#: include/settings.php:147
+#: include/settings.php:40
 msgid "Technology"
 msgstr ""
 
-#: include/settings.php:151
+#: include/settings.php:44
 msgid "Learning"
 msgstr ""
 
-#: include/settings.php:158
+#: include/settings.php:51
 msgid "Login form position"
 msgstr ""
 
-#: include/settings.php:160
+#: include/settings.php:53
 msgid "Choose login form position. (Only for desktop)"
 msgstr ""
 
-#: include/settings.php:163
+#: include/settings.php:56
 msgid "Left"
 msgstr ""
 
-#: include/settings.php:164
+#: include/settings.php:57
 msgid "Center"
 msgstr ""
 
-#: include/settings.php:165
+#: include/settings.php:58
 msgid "Right"
 msgstr ""
 
-#: include/settings.php:170
+#: include/settings.php:63
 msgid "Custom background image"
 msgstr ""
 
-#: include/settings.php:172
+#: include/settings.php:65
 msgid ""
 "Select the appropriate image for the background of the login page. "
 "Recommended image size: 1280x 720"
 msgstr ""
 
-#: include/settings.php:178
+#: include/settings.php:71
 msgid "Custom background image from url"
 msgstr ""
 
-#: include/settings.php:180
+#: include/settings.php:73
 msgid ""
 "Enter the appropriate image link for the background of the login page. "
 "Recommended image size: 1280x 720. This image affects the above 2 items. "
@@ -173,142 +144,194 @@ msgid ""
 "designs or the image uploaded by you on the login page."
 msgstr ""
 
-#: include/settings.php:185
+#: include/settings.php:78
 msgid "Box Shadow"
 msgstr ""
 
-#: include/settings.php:187
+#: include/settings.php:80
 msgid "This option adds a shadow to the outer box of the login box."
 msgstr ""
 
-#: include/settings.php:192
+#: include/settings.php:85
 msgid "Font family"
 msgstr ""
 
-#: include/settings.php:194
+#: include/settings.php:87
 msgid "Choose Font of login page text"
 msgstr ""
 
-#: include/settings.php:198
+#: include/settings.php:91
 msgid "Vazir"
 msgstr ""
 
-#: include/settings.php:199
+#: include/settings.php:92
 msgid "Yekan"
 msgstr ""
 
-#: include/settings.php:200
+#: include/settings.php:93
 msgid "Samim"
 msgstr ""
 
-#: include/settings.php:201
+#: include/settings.php:94
 msgid "Shabnam"
 msgstr ""
 
-#: include/settings.php:202
+#: include/settings.php:95
 msgid "Estedad"
 msgstr ""
 
-#: include/settings.php:203
+#: include/settings.php:96
 msgid "Lalezar"
 msgstr ""
 
-#: include/settings.php:204
+#: include/settings.php:97
 msgid "SorkhPust"
 msgstr ""
 
-#: include/settings.php:205
+#: include/settings.php:98
 msgid "Casablanca"
 msgstr ""
 
-#: include/settings.php:210
+#: include/settings.php:103
 msgid "Change Logo URL To Home"
 msgstr ""
 
-#: include/settings.php:212
+#: include/settings.php:105
 msgid ""
 "This option changes the URL of the logo on the login page to the main page."
 msgstr ""
 
-#: include/settings.php:217
+#: include/settings.php:110
 msgid "Custom login logo"
 msgstr ""
 
-#: include/settings.php:219
+#: include/settings.php:112
 msgid ""
 "This option replace default wordpress logo with your custom uploaded logo. "
 "Please upload image in square size like: 256x256"
 msgstr ""
 
-#: include/settings.php:225
+#: include/settings.php:118
 msgid "Language switcher"
 msgstr ""
 
-#: include/settings.php:227
+#: include/settings.php:120
 msgid "This option can delete the language switcher section on the login page."
 msgstr ""
 
-#: include/settings.php:243
+#: include/settings.php:127
+msgid "Captcha Mode"
+msgstr ""
+
+#: include/settings.php:129
+msgid "Select the captcha mode you want to use."
+msgstr ""
+
+#: include/settings.php:132
+msgid "Disable"
+msgstr ""
+
+#: include/settings.php:133
+msgid "Google reCAPTCHA(v2)"
+msgstr ""
+
+#: include/settings.php:134
+msgid "Simple Math Captcha"
+msgstr ""
+
+#: include/settings.php:139
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
+#: include/settings.php:141
+msgid "Enter your Google reCAPTCHA site key."
+msgstr ""
+
+#: include/settings.php:148
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+#: include/settings.php:150
+msgid "Enter your Google reCAPTCHA secret key."
+msgstr ""
+
+#: include/settings.php:158
+msgid "Display mode"
+msgstr ""
+
+#: include/settings.php:160
+msgid "Choose how to display icons"
+msgstr ""
+
+#: include/settings.php:163
+msgid "Vertical"
+msgstr ""
+
+#: include/settings.php:164
+msgid "Horizontal"
+msgstr ""
+
+#: include/settings.php:169
 msgid "<i class=\"fab fa-instagram\"></i> Instagram username"
 msgstr ""
 
-#: include/settings.php:245
+#: include/settings.php:171
 msgid "Type your Instagram username. ex: masoud.nkh"
 msgstr ""
 
-#: include/settings.php:250
+#: include/settings.php:176
 msgid "<i class=\"fab fa-telegram\"></i> Telegram username"
 msgstr ""
 
-#: include/settings.php:252
+#: include/settings.php:178
 msgid "Type your Telegram username. ex: masoud_nkh"
 msgstr ""
 
-#: include/settings.php:257
+#: include/settings.php:183
 msgid "<i class=\"fab fa-pinterest\"></i> Pinterest username"
 msgstr ""
 
-#: include/settings.php:259
+#: include/settings.php:185
 msgid "Type your Pinterest username. ex: masoudkhodabakhsh"
 msgstr ""
 
-#: include/settings.php:264
+#: include/settings.php:190
 msgid "<i class=\"fab fa-whatsapp\"></i> Whatsapp number"
 msgstr ""
 
-#: include/settings.php:266
+#: include/settings.php:192
 msgid "Type your Whatsapp phone number with country code. ex: 989211234567"
 msgstr ""
 
-#: include/settings.php:271
+#: include/settings.php:197
 msgid "<i class=\"fab fa-facebook\"></i> Facebook username"
 msgstr ""
 
-#: include/settings.php:273
+#: include/settings.php:199
 msgid "Type your Facebook username. ex: masoudkhodabakhsh"
 msgstr ""
 
-#: include/settings.php:278
-msgid "<i class=\"fab fa-twitter\"></i> Twitter username"
+#: include/settings.php:204
+msgid "<i class=\"fab fa-x-twitter\"></i> Twitter username"
 msgstr ""
 
-#: include/settings.php:280
+#: include/settings.php:206
 msgid "Type your Twitter username. ex: masoudkhodabakhsh"
 msgstr ""
 
-#: include/settings.php:285
-msgid "<i class=\"fab fa-linkedin-in\"></i> Linkedin username"
+#: include/settings.php:211
+msgid "<i class=\"fab fa-linkedin\"></i> Linkedin username"
 msgstr ""
 
-#: include/settings.php:287
+#: include/settings.php:213
 msgid "Type your Linkedin username. ex: masoudkhodabakhsh"
 msgstr ""
 
-#: include/settings.php:301
+#: include/settings.php:219
 msgid "Custom Login URL"
 msgstr ""
 
-#: include/settings.php:303
+#: include/settings.php:221
 msgid ""
 "Type the address you want to use, for example: secadmin. Please use only "
 "English letters and numbers (Nothing else works). The WordPress admin page "
@@ -316,111 +339,176 @@ msgid ""
 "secadmin"
 msgstr ""
 
-#: include/settings.php:309
+#: include/settings.php:227
 msgid "Error message"
 msgstr ""
 
-#: include/settings.php:311
+#: include/settings.php:229
 msgid ""
 "Enter the message you want to display when a person wants to log in with wp-"
 "admin or wp-login URLs"
 msgstr ""
 
-#: include/settings.php:317
+#: include/settings.php:235
 msgid "Error page style"
 msgstr ""
 
-#: include/settings.php:319
+#: include/settings.php:237
 msgid "Select access error page design style."
 msgstr ""
 
-#: include/settings.php:323
+#: include/settings.php:241
 msgid "Default wordpress style"
 msgstr ""
 
-#: include/settings.php:324
+#: include/settings.php:242
 msgid "Style 1"
 msgstr ""
 
-#: include/settings.php:325
+#: include/settings.php:243
 msgid "Style 2"
 msgstr ""
 
-#: include/settings.php:340
+#: include/settings.php:251
 msgid "username or email address"
 msgstr ""
 
-#: include/settings.php:342
+#: include/settings.php:253
 msgid ""
 "Change <span class=\"lable\">username or email address</span> label text"
 msgstr ""
 
-#: include/settings.php:347
+#: include/settings.php:258
 msgid "Password"
 msgstr ""
 
-#: include/settings.php:349
+#: include/settings.php:260
 msgid "Change <span class=\"lable\">Password</span> label text"
 msgstr ""
 
-#: include/settings.php:354
+#: include/settings.php:265
 msgid "Remember me"
 msgstr ""
 
-#: include/settings.php:356
+#: include/settings.php:267
 msgid "Change <span class=\"lable\">Remember me</span> label text"
 msgstr ""
 
-#: include/settings.php:361
+#: include/settings.php:272
 msgid "Lost your password?"
 msgstr ""
 
-#: include/settings.php:363
+#: include/settings.php:274
 msgid "Change <span class=\"lable\">Lost your password?</span> label text"
 msgstr ""
 
-#: include/settings.php:368
+#: include/settings.php:279
 msgid "Log in"
 msgstr ""
 
-#: include/settings.php:370
+#: include/settings.php:281
 msgid "Change <span class=\"lable\">Log in</span> button label text"
 msgstr ""
 
-#: include/settings.php:386
+#: include/settings.php:288
+msgid ""
+"Change <span class=\"lable\">Solve this</span> text when Simple math captcha "
+"enabled"
+msgstr ""
+
+#: include/settings.php:303
 msgid "WP login page effect style"
 msgstr ""
 
-#: include/settings.php:388
+#: include/settings.php:305
 msgid "Select effect style if you want to have beautifull wordpress login page"
 msgstr ""
 
-#: include/settings.php:392
+#: include/settings.php:309
 msgid "Without effect"
 msgstr ""
 
-#: include/settings.php:393
+#: include/settings.php:310
 msgid "Square bubble"
 msgstr ""
 
-#: include/settings.php:394
+#: include/settings.php:311
 msgid "Circle bubble"
 msgstr ""
 
-#: include/settings.php:395
+#: include/settings.php:312
 msgid "Pulsating ring"
 msgstr ""
 
-#: include/settings.php:442
-msgid "Show/Hide styles"
+#: include/settings.php:313
+msgid "Wandering balloon"
 msgstr ""
 
-#: include/settings.php:520
+#: include/settings.php:446
 msgid "Select"
 msgstr ""
 
-#: include/settings.php:524
+#: include/settings.php:450
 msgid "Clear"
+msgstr ""
+
+#: include/settings.php:528 include/settings.php:737
+msgid "Creative Wordpress Login Page Settings"
+msgstr ""
+
+#: include/settings.php:532
+msgid "General"
+msgstr ""
+
+#: include/settings.php:533
+msgid "captcha"
+msgstr ""
+
+#: include/settings.php:534
+msgid "Social"
+msgstr ""
+
+#: include/settings.php:535
+msgid "Login Security"
+msgstr ""
+
+#: include/settings.php:536
+msgid "Label Changer"
+msgstr ""
+
+#: include/settings.php:537
+msgid "Effect manager"
+msgstr ""
+
+#: include/settings.php:553
+msgid "You can protect your login form with captcha"
+msgstr ""
+
+#: include/settings.php:558
+msgid ""
+"With this section, you can add a floating social media toolbar to your login "
+"page. Empty field for remove icon."
+msgstr ""
+
+#: include/settings.php:563
+msgid ""
+"With this section, you can restrict access to the WordPress login and admin "
+"page to a specific address."
+msgstr ""
+
+#: include/settings.php:568
+msgid ""
+"With this section, you can change label text of all thing in wordpress login "
+"page"
+msgstr ""
+
+#: include/settings.php:573
+msgid ""
+"With this section, you can set some effect for show in wordpress login page"
+msgstr ""
+
+#: include/settings.php:738
+msgid "CWLP Settings"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
@@ -437,9 +525,9 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Masoud NKH"
+msgid "WP irani"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://herbana.ir/"
+msgid "https://wpirani.ir/"
 msgstr ""

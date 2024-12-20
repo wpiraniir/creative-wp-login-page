@@ -1,5 +1,6 @@
 .adoni {
-    font-size: 1.4rem;
+    font-size: 22px;
+    padding-right: 5px !important;
 }
 .cwlp-icon-bar {
   position: fixed;
@@ -25,6 +26,7 @@
   height: 25px;
   border-radius: 50px;
   margin-bottom: 5px;
+  text-decoration: none !important;
 }
 @media screen and (max-width: 565px) {
 	.cwlp-icon-bar a {
@@ -71,6 +73,9 @@
   opacity: 0;
 }
 .close-bu {
-bottom: 5px;
-margin-left: 5px
+    bottom: 5px;
+    margin-left: 5px;
+    background: #000;
+    border-radius: 50%;
+    padding: 2px;
 }

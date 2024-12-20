@@ -26,7 +26,8 @@ $cwlpoptionnames=array(
 	'cwlp-lswitch',
 	'cwlp-custom-ibc',
 	'cwlp-custom-ibu',
-	'cwlp-login-urls'
+	'cwlp-login-urls',
+	'cwlp-dmode'
 );
 
 $opt = isset($opt) ? $opt : '';
