@@ -10,8 +10,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @since 2.0
  */
- 
-$cwlpoptionnames=array(
+
+$cwlpoptionnames = array(
 	'cwlp-bshadow',
 	'cwlp-fontfamily',
 	'cwlp-logo-url',
@@ -27,16 +27,17 @@ $cwlpoptionnames=array(
 	'cwlp-custom-ibc',
 	'cwlp-custom-ibu',
 	'cwlp-login-urls',
-	'cwlp-dmode'
+	'cwlp-dmode',
 );
 
-$opt = isset($opt) ? $opt : '';
-if (!option_exists( $opt )) {
-		foreach($cwlpoptionnames as $opt) {
+$opt = isset( $opt ) ? $opt : '';
+if ( ! option_exists( $opt ) ) {
+	foreach ( $cwlpoptionnames as $opt ) {
 		add_option( $opt, '' );
 	}
 }
 
-function option_exists($name, $site_wide=false){
-    global $wpdb; return $wpdb->query("SELECT * FROM ". ($site_wide ? $wpdb->base_prefix : $wpdb->prefix). "options WHERE option_name ='$name' LIMIT 1");
+function option_exists( $name, $site_wide = false ) {
+	global $wpdb;
+	return $wpdb->query( 'SELECT * FROM ' . ( $site_wide ? $wpdb->base_prefix : $wpdb->prefix ) . "options WHERE option_name ='$name' LIMIT 1" );
 }

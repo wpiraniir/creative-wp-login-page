@@ -1,0 +1,46 @@
+/* div.cwlp-num {
+	float: left;
+	direction: ltr;
+	background-image: url(../images/cwlp-simple-captcha.webp);
+	background-size: contain;
+	filter: contrast(0.8);
+	padding: 0px 12px;
+	border-radius: 10px;
+	height: 30px;
+	margin-bottom: 2px;
+	align-content: end;
+} */
+/* .solve_this {font-size: 1rem;background: #fff;padding: 5px 5px 0px 5px;border-radius: 12px;display: flex;flex-direction: row;flex-wrap: wrap;align-items: flex-start;justify-content: space-between;} */
+.solve_this {
+    font-size: 1rem;
+    background: #fff;
+    padding: 5px 5px 0px 5px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    justify-items: end;
+    justify-content: start;
+    align-items: center;
+}
+.solve_this p:has(.cwlp-num) {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+p#simplecaptcha {
+	margin-top: -45px;
+	position: relative;
+	max-width: 50%;
+}
+
+span.opera {
+	font-size: 20px;
+	height: 20px;
+	margin: -5px 0 0 0 !important;
+}
+.solvo-cap {align-items: center;color: #000;}

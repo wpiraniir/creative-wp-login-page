@@ -28,9 +28,10 @@ if ( ! defined( 'WPINC' ) ) {
 
 function optionsframework_init() {
 
-	//  If user can't edit theme options, exit
-	if ( !current_user_can( 'edit_theme_options' ) )
+	// If user can't edit theme options, exit
+	if ( ! current_user_can( 'edit_theme_options' ) ) {
 		return;
+	}
 
 	// Load translation files
 	load_plugin_textdomain( 'options-framework', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
@@ -43,14 +44,12 @@ function optionsframework_init() {
 	require plugin_dir_path( __FILE__ ) . 'includes/class-options-sanitization.php';
 
 	// Instantiate the main plugin class.
-	$options_framework = new Options_Framework;
+	$options_framework = new Options_Framework();
 	$options_framework->init();
 
 	// Instantiate the options page.
-	$options_framework_admin = new Options_Framework_Admin;
+	$options_framework_admin = new Options_Framework_Admin();
 	$options_framework_admin->init();
-
-
 }
 add_action( 'init', 'optionsframework_init', 20 );
 
@@ -64,20 +63,20 @@ add_action( 'init', 'optionsframework_init', 20 );
 
 if ( ! function_exists( 'of_get_option' ) ) :
 
-function of_get_option( $name, $default = false ) {
-	$config = get_option( 'optionsframework' );
+	function of_get_option( $name, $default = false ) {
+		$config = get_option( 'optionsframework' );
 
-	if ( ! isset( $config['id'] ) ) {
+		if ( ! isset( $config['id'] ) ) {
+			return $default;
+		}
+
+		$options = get_option( $config['id'] );
+
+		if ( isset( $options[ $name ] ) ) {
+			return $options[ $name ];
+		}
+
 		return $default;
 	}
-
-	$options = get_option( $config['id'] );
-
-	if ( isset( $options[$name] ) ) {
-		return $options[$name];
-	}
-
-	return $default;
-}
 
 endif;

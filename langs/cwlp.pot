@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Creative WP Login Page\n"
-"POT-Creation-Date: 2024-11-29 21:23+0330\n"
+"POT-Creation-Date: 2025-01-09 16:09+0330\n"
 "PO-Revision-Date: 2022-05-14 07:51+0430\n"
 "Last-Translator: مسعود نجار خدابخش <mgprop56@gmail.com>\n"
 "Language-Team: مسعود نجار خدابخش <mgprop56@gmail.com>\n"
@@ -25,44 +25,138 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: ⁨include/captcha - Copy.php⁩:60 include/captcha.php:72
-#: include/settings.php:286
+#: ⁨include/New folder/captcha - Copy (2).php⁩:76
+#: ⁨include/New folder/captcha - Copy (3).php⁩:76
+#: ⁨include/New folder/captcha - Copy (4).php⁩:75
+#: ⁨include/New folder/captcha - Copy (5).php⁩:103
+#: ⁨include/New folder/captcha - Copy (6).php⁩:82
+#: ⁨include/New folder/captcha - Copy.php⁩:76 ⁨include/captcha - Copy.php⁩:84
+#: include/captcha-next.php:84 include/captcha.php:82 include/settings.php:348
 msgid "Solve this"
 msgstr ""
 
-#: ⁨include/captcha - Copy.php⁩:84 include/captcha.php:101
-msgid "Google reCAPTCHA verification failed."
-msgstr ""
-
-#: ⁨include/captcha - Copy.php⁩:87 include/captcha.php:104
-msgid "Please complete the reCAPTCHA."
-msgstr ""
-
-#: ⁨include/captcha - Copy.php⁩:93 include/captcha.php:111
-msgid "Captcha verification failed."
-msgstr ""
-
-#: ⁨include/captcha - Copy.php⁩:96 include/captcha.php:114
-msgid "Please complete the captcha."
-msgstr ""
-
-#: include/captcha.php:73
+#: ⁨include/New folder/captcha - Copy (2).php⁩:77
+#: ⁨include/New folder/captcha - Copy (3).php⁩:77
+#: ⁨include/New folder/captcha - Copy (4).php⁩:76
+#: ⁨include/New folder/captcha - Copy (5).php⁩:104
+#: ⁨include/New folder/captcha - Copy (6).php⁩:83
+#: ⁨include/New folder/captcha - Copy.php⁩:77 ⁨include/captcha - Copy.php⁩:85
+#: include/captcha-next.php:85 include/captcha.php:82
 msgid "Please enter the correct answer"
 msgstr ""
 
-#: include/captcha.php:95
+#: ⁨include/New folder/captcha - Copy (2).php⁩:101
+#: ⁨include/New folder/captcha - Copy (3).php⁩:106
+#: ⁨include/New folder/captcha - Copy (4).php⁩:105
+#: ⁨include/New folder/captcha - Copy (5).php⁩:179
+#: ⁨include/New folder/captcha - Copy (6).php⁩:174
+#: ⁨include/New folder/captcha - Copy (6).php⁩:198
+#: ⁨include/New folder/captcha - Copy.php⁩:101 ⁨include/captcha - Copy.php⁩:273
+#: ⁨include/captcha - Copy.php⁩:295 include/captcha-next.php:115
+#: include/captcha.php:289 include/captcha.php:313
 msgid "Unable to verify reCAPTCHA. Please try again."
 msgstr ""
 
-#: include/init.php:117 include/settings.php:231
+#: ⁨include/New folder/captcha - Copy (2).php⁩:107
+#: ⁨include/New folder/captcha - Copy (3).php⁩:112
+#: ⁨include/New folder/captcha - Copy (4).php⁩:111
+#: ⁨include/New folder/captcha - Copy (6).php⁩:180
+#: ⁨include/New folder/captcha - Copy.php⁩:107 ⁨include/captcha - Copy.php⁩:223
+#: ⁨include/captcha - Copy.php⁩:279 include/captcha-next.php:121
+#: include/captcha.php:236 include/captcha.php:295
+msgid "Google reCAPTCHA verification failed."
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (2).php⁩:110
+#: ⁨include/New folder/captcha - Copy (3).php⁩:115
+#: ⁨include/New folder/captcha - Copy (4).php⁩:114
+#: ⁨include/New folder/captcha - Copy (5).php⁩:189
+#: ⁨include/New folder/captcha - Copy (6).php⁩:183
+#: ⁨include/New folder/captcha - Copy (6).php⁩:208
+#: ⁨include/New folder/captcha - Copy.php⁩:110 ⁨include/captcha - Copy.php⁩:209
+#: ⁨include/captcha - Copy.php⁩:305 include/captcha-next.php:124
+#: include/captcha.php:222 include/captcha.php:276 include/captcha.php:299
+msgid "Please complete the reCAPTCHA."
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (2).php⁩:115
+#: ⁨include/New folder/captcha - Copy (3).php⁩:121
+#: ⁨include/New folder/captcha - Copy (4).php⁩:120
+#: ⁨include/New folder/captcha - Copy.php⁩:115 include/captcha-next.php:129
+msgid "Nonce verification failed."
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (2).php⁩:126
+#: ⁨include/New folder/captcha - Copy.php⁩:126 include/captcha-next.php:140
+msgid "Captcha verification failed."
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (2).php⁩:129
+#: ⁨include/New folder/captcha - Copy.php⁩:129 include/captcha-next.php:143
+msgid "Please complete the captcha."
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (3).php⁩:129
+msgid "Captcha expired or not found. Please try again."
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (3).php⁩:133
+#: ⁨include/New folder/captcha - Copy (4).php⁩:133
+msgid "Captcha verification failed. Incorrect answer."
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (4).php⁩:129
+msgid "Captcha not found or expired. Please try again."
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (5).php⁩:30
+#: ⁨include/New folder/captcha - Copy (5).php⁩:38
+#: ⁨include/New folder/captcha - Copy (6).php⁩:26
+#: ⁨include/New folder/captcha - Copy (6).php⁩:33 ⁨include/captcha - Copy.php⁩:28
+#: ⁨include/captcha - Copy.php⁩:35 include/captcha.php:26 include/captcha.php:33
+msgid "Recaptcha site key not defined"
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (5).php⁩:150
+msgid "Recaptcha site key is missing or invalid."
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (5).php⁩:158
+#: ⁨include/New folder/captcha - Copy (6).php⁩:153 ⁨include/captcha - Copy.php⁩:201
+#: ⁨include/captcha - Copy.php⁩:252 include/captcha.php:214
+#: include/captcha.php:267
+msgid "Incorrect CAPTCHA answer. Please try again."
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (5).php⁩:161
+#: ⁨include/New folder/captcha - Copy (6).php⁩:156
+msgid "Please answer the CAPTCHA question."
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (5).php⁩:186
+msgid "Google reCAPTCHA verification failed or suspicious activity detected."
+msgstr ""
+
+#: ⁨include/New folder/captcha - Copy (6).php⁩:204 ⁨include/captcha - Copy.php⁩:301
+#: include/captcha.php:319
+msgid "Google reCAPTCHA validation failed or suspicious activity detected."
+msgstr ""
+
+#: ⁨include/captcha - Copy.php⁩:205 include/captcha.php:218
+msgid "CAPTCHA answer is required."
+msgstr ""
+
+#: ⁨include/init - Copy.php⁩:116 include/init.php:116 include/settings.php:294
 msgid "You do not have permission to access this page!"
 msgstr ""
 
-#: include/init.php:119 include/init.php:121 include/init.php:123
-msgid "Protected By Creative WP Login Page"
+#: ⁨include/init - Copy.php⁩:119 ⁨include/init - Copy.php⁩:121
+#: ⁨include/init - Copy.php⁩:123 include/init.php:119 include/init.php:121
+#: include/init.php:123
+msgid "Protected By WP Irani"
 msgstr ""
 
-#: include/settings.php:9
+#: include/settings.php:9 include/settings.php:198
 msgid "Style"
 msgstr ""
 
@@ -70,7 +164,7 @@ msgstr ""
 msgid "Choose style of login page"
 msgstr ""
 
-#: include/settings.php:16 include/settings.php:90
+#: include/settings.php:16 include/settings.php:90 include/settings.php:205
 msgid "Default"
 msgstr ""
 
@@ -232,106 +326,122 @@ msgid "Disable"
 msgstr ""
 
 #: include/settings.php:133
-msgid "Google reCAPTCHA(v2)"
+msgid "Google reCAPTCHA(v2-checkbox)"
 msgstr ""
 
 #: include/settings.php:134
+msgid "Google reCAPTCHA(v2-invisible)"
+msgstr ""
+
+#: include/settings.php:135
+msgid "Google reCAPTCHA(v3)"
+msgstr ""
+
+#: include/settings.php:136
 msgid "Simple Math Captcha"
 msgstr ""
 
-#: include/settings.php:139
+#: include/settings.php:141 include/settings.php:160 include/settings.php:179
 msgid "reCAPTCHA Site Key"
 msgstr ""
 
-#: include/settings.php:141
+#: include/settings.php:143 include/settings.php:162 include/settings.php:181
 msgid "Enter your Google reCAPTCHA site key."
 msgstr ""
 
-#: include/settings.php:148
+#: include/settings.php:151 include/settings.php:170 include/settings.php:189
 msgid "reCAPTCHA Secret Key"
 msgstr ""
 
-#: include/settings.php:150
+#: include/settings.php:153 include/settings.php:172 include/settings.php:191
 msgid "Enter your Google reCAPTCHA secret key."
 msgstr ""
 
-#: include/settings.php:158
-msgid "Display mode"
+#: include/settings.php:200
+msgid "Choose style of show Math"
 msgstr ""
 
-#: include/settings.php:160
-msgid "Choose how to display icons"
-msgstr ""
-
-#: include/settings.php:163
-msgid "Vertical"
-msgstr ""
-
-#: include/settings.php:164
-msgid "Horizontal"
-msgstr ""
-
-#: include/settings.php:169
-msgid "<i class=\"fab fa-instagram\"></i> Instagram username"
-msgstr ""
-
-#: include/settings.php:171
-msgid "Type your Instagram username. ex: masoud.nkh"
-msgstr ""
-
-#: include/settings.php:176
-msgid "<i class=\"fab fa-telegram\"></i> Telegram username"
-msgstr ""
-
-#: include/settings.php:178
-msgid "Type your Telegram username. ex: masoud_nkh"
-msgstr ""
-
-#: include/settings.php:183
-msgid "<i class=\"fab fa-pinterest\"></i> Pinterest username"
-msgstr ""
-
-#: include/settings.php:185
-msgid "Type your Pinterest username. ex: masoudkhodabakhsh"
-msgstr ""
-
-#: include/settings.php:190
-msgid "<i class=\"fab fa-whatsapp\"></i> Whatsapp number"
-msgstr ""
-
-#: include/settings.php:192
-msgid "Type your Whatsapp phone number with country code. ex: 989211234567"
-msgstr ""
-
-#: include/settings.php:197
-msgid "<i class=\"fab fa-facebook\"></i> Facebook username"
-msgstr ""
-
-#: include/settings.php:199
-msgid "Type your Facebook username. ex: masoudkhodabakhsh"
-msgstr ""
-
-#: include/settings.php:204
-msgid "<i class=\"fab fa-x-twitter\"></i> Twitter username"
-msgstr ""
-
-#: include/settings.php:206
-msgid "Type your Twitter username. ex: masoudkhodabakhsh"
-msgstr ""
-
-#: include/settings.php:211
-msgid "<i class=\"fab fa-linkedin\"></i> Linkedin username"
-msgstr ""
-
-#: include/settings.php:213
-msgid "Type your Linkedin username. ex: masoudkhodabakhsh"
-msgstr ""
-
-#: include/settings.php:219
-msgid "Custom Login URL"
+#: include/settings.php:209
+msgid "Old style"
 msgstr ""
 
 #: include/settings.php:221
+msgid "Display mode"
+msgstr ""
+
+#: include/settings.php:223
+msgid "Choose how to display icons"
+msgstr ""
+
+#: include/settings.php:226
+msgid "Vertical"
+msgstr ""
+
+#: include/settings.php:227
+msgid "Horizontal"
+msgstr ""
+
+#: include/settings.php:232
+msgid "<i class=\"fab fa-instagram\"></i> Instagram username"
+msgstr ""
+
+#: include/settings.php:234
+msgid "Type your Instagram username. ex: masoud.nkh"
+msgstr ""
+
+#: include/settings.php:239
+msgid "<i class=\"fab fa-telegram\"></i> Telegram username"
+msgstr ""
+
+#: include/settings.php:241
+msgid "Type your Telegram username. ex: masoud_nkh"
+msgstr ""
+
+#: include/settings.php:246
+msgid "<i class=\"fab fa-pinterest\"></i> Pinterest username"
+msgstr ""
+
+#: include/settings.php:248
+msgid "Type your Pinterest username. ex: masoudkhodabakhsh"
+msgstr ""
+
+#: include/settings.php:253
+msgid "<i class=\"fab fa-whatsapp\"></i> Whatsapp number"
+msgstr ""
+
+#: include/settings.php:255
+msgid "Type your Whatsapp phone number with country code. ex: 989211234567"
+msgstr ""
+
+#: include/settings.php:260
+msgid "<i class=\"fab fa-facebook\"></i> Facebook username"
+msgstr ""
+
+#: include/settings.php:262
+msgid "Type your Facebook username. ex: masoudkhodabakhsh"
+msgstr ""
+
+#: include/settings.php:267
+msgid "<i class=\"fab fa-x-twitter\"></i> Twitter username"
+msgstr ""
+
+#: include/settings.php:269
+msgid "Type your Twitter username. ex: masoudkhodabakhsh"
+msgstr ""
+
+#: include/settings.php:274
+msgid "<i class=\"fab fa-linkedin\"></i> Linkedin username"
+msgstr ""
+
+#: include/settings.php:276
+msgid "Type your Linkedin username. ex: masoudkhodabakhsh"
+msgstr ""
+
+#: include/settings.php:282
+msgid "Custom Login URL"
+msgstr ""
+
+#: include/settings.php:284
 msgid ""
 "Type the address you want to use, for example: secadmin. Please use only "
 "English letters and numbers (Nothing else works). The WordPress admin page "
@@ -339,175 +449,187 @@ msgid ""
 "secadmin"
 msgstr ""
 
-#: include/settings.php:227
+#: include/settings.php:290
 msgid "Error message"
 msgstr ""
 
-#: include/settings.php:229
+#: include/settings.php:292
 msgid ""
 "Enter the message you want to display when a person wants to log in with wp-"
 "admin or wp-login URLs"
 msgstr ""
 
-#: include/settings.php:235
+#: include/settings.php:298
 msgid "Error page style"
 msgstr ""
 
-#: include/settings.php:237
+#: include/settings.php:300
 msgid "Select access error page design style."
 msgstr ""
 
-#: include/settings.php:241
+#: include/settings.php:304
 msgid "Default wordpress style"
 msgstr ""
 
-#: include/settings.php:242
+#: include/settings.php:305
 msgid "Style 1"
 msgstr ""
 
-#: include/settings.php:243
+#: include/settings.php:306
 msgid "Style 2"
 msgstr ""
 
-#: include/settings.php:251
+#: include/settings.php:313
 msgid "username or email address"
 msgstr ""
 
-#: include/settings.php:253
+#: include/settings.php:315
 msgid ""
 "Change <span class=\"lable\">username or email address</span> label text"
 msgstr ""
 
-#: include/settings.php:258
+#: include/settings.php:320
 msgid "Password"
 msgstr ""
 
-#: include/settings.php:260
+#: include/settings.php:322
 msgid "Change <span class=\"lable\">Password</span> label text"
 msgstr ""
 
-#: include/settings.php:265
+#: include/settings.php:327
 msgid "Remember me"
 msgstr ""
 
-#: include/settings.php:267
+#: include/settings.php:329
 msgid "Change <span class=\"lable\">Remember me</span> label text"
 msgstr ""
 
-#: include/settings.php:272
+#: include/settings.php:334
 msgid "Lost your password?"
 msgstr ""
 
-#: include/settings.php:274
+#: include/settings.php:336
 msgid "Change <span class=\"lable\">Lost your password?</span> label text"
 msgstr ""
 
-#: include/settings.php:279
+#: include/settings.php:341
 msgid "Log in"
 msgstr ""
 
-#: include/settings.php:281
+#: include/settings.php:343
 msgid "Change <span class=\"lable\">Log in</span> button label text"
 msgstr ""
 
-#: include/settings.php:288
+#: include/settings.php:350
 msgid ""
 "Change <span class=\"lable\">Solve this</span> text when Simple math captcha "
 "enabled"
 msgstr ""
 
-#: include/settings.php:303
+#: include/settings.php:357
 msgid "WP login page effect style"
 msgstr ""
 
-#: include/settings.php:305
+#: include/settings.php:359
 msgid "Select effect style if you want to have beautifull wordpress login page"
 msgstr ""
 
-#: include/settings.php:309
+#: include/settings.php:363
 msgid "Without effect"
 msgstr ""
 
-#: include/settings.php:310
+#: include/settings.php:364
 msgid "Square bubble"
 msgstr ""
 
-#: include/settings.php:311
+#: include/settings.php:365
 msgid "Circle bubble"
 msgstr ""
 
-#: include/settings.php:312
+#: include/settings.php:366
 msgid "Pulsating ring"
 msgstr ""
 
-#: include/settings.php:313
+#: include/settings.php:367
 msgid "Wandering balloon"
 msgstr ""
 
-#: include/settings.php:446
+#: include/settings.php:368
+msgid "Snow ball"
+msgstr ""
+
+#: include/settings.php:369
+msgid "Snow fall"
+msgstr ""
+
+#: include/settings.php:375
+msgid "Snow fall effect maybe slow on some mobile devices (below 20%)"
+msgstr ""
+
+#: include/settings.php:522
 msgid "Select"
 msgstr ""
 
-#: include/settings.php:450
+#: include/settings.php:526
 msgid "Clear"
 msgstr ""
 
-#: include/settings.php:528 include/settings.php:737
-msgid "Creative Wordpress Login Page Settings"
+#: include/settings.php:615 include/settings.php:842
+msgid "Creative WordPress Login Page Settings"
 msgstr ""
 
-#: include/settings.php:532
+#: include/settings.php:619
 msgid "General"
 msgstr ""
 
-#: include/settings.php:533
+#: include/settings.php:620
 msgid "captcha"
 msgstr ""
 
-#: include/settings.php:534
+#: include/settings.php:621
 msgid "Social"
 msgstr ""
 
-#: include/settings.php:535
+#: include/settings.php:622
 msgid "Login Security"
 msgstr ""
 
-#: include/settings.php:536
+#: include/settings.php:623
 msgid "Label Changer"
 msgstr ""
 
-#: include/settings.php:537
+#: include/settings.php:624
 msgid "Effect manager"
 msgstr ""
 
-#: include/settings.php:553
+#: include/settings.php:640
 msgid "You can protect your login form with captcha"
 msgstr ""
 
-#: include/settings.php:558
+#: include/settings.php:645
 msgid ""
 "With this section, you can add a floating social media toolbar to your login "
 "page. Empty field for remove icon."
 msgstr ""
 
-#: include/settings.php:563
+#: include/settings.php:650
 msgid ""
 "With this section, you can restrict access to the WordPress login and admin "
 "page to a specific address."
 msgstr ""
 
-#: include/settings.php:568
+#: include/settings.php:655
 msgid ""
-"With this section, you can change label text of all thing in wordpress login "
+"With this section, you can change label text of all thing in WordPress login "
 "page"
 msgstr ""
 
-#: include/settings.php:573
+#: include/settings.php:660
 msgid ""
-"With this section, you can set some effect for show in wordpress login page"
+"With this section, you can set some effect for show in WordPress login page"
 msgstr ""
 
-#: include/settings.php:738
+#: include/settings.php:843
 msgid "CWLP Settings"
 msgstr ""
 

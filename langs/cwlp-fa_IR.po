@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Creative WP Login Page\n"
-"POT-Creation-Date: 2024-11-29 21:23+0330\n"
-"PO-Revision-Date: 2024-12-01 09:46+0330\n"
-"Last-Translator: مسعود نجار خدابخش <mgprop56@gmail.com>\n"
+"POT-Creation-Date: 2025-01-09 16:09+0330\n"
+"PO-Revision-Date: 2025-01-09 16:10+0330\n"
+"Last-Translator: Masoud Najjar Khodabakhsh <mgprop56@gmail.com>\n"
 "Language-Team: مسعود نجار خدابخش <mgprop56@gmail.com>\n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
@@ -24,43 +24,137 @@ msgstr ""
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: ⁨include/captcha - Copy.php⁩:60 include/captcha.php:72 include/settings.php:286
+#: ⁨include/New folder/captcha - Copy (2).php⁩:76
+#: ⁨include/New folder/captcha - Copy (3).php⁩:76
+#: ⁨include/New folder/captcha - Copy (4).php⁩:75
+#: ⁨include/New folder/captcha - Copy (5).php⁩:103
+#: ⁨include/New folder/captcha - Copy (6).php⁩:82
+#: ⁨include/New folder/captcha - Copy.php⁩:76 ⁨include/captcha - Copy.php⁩:84
+#: include/captcha-next.php:84 include/captcha.php:82 include/settings.php:348
 msgid "Solve this"
 msgstr "اینو حل کن"
 
-#: ⁨include/captcha - Copy.php⁩:84 include/captcha.php:101
-msgid "Google reCAPTCHA verification failed."
-msgstr "کد کپچا درست نیست."
-
-#: ⁨include/captcha - Copy.php⁩:87 include/captcha.php:104
-msgid "Please complete the reCAPTCHA."
-msgstr "لطفا reCAPTCHA را تکمیل کنید."
-
-#: ⁨include/captcha - Copy.php⁩:93 include/captcha.php:111
-msgid "Captcha verification failed."
-msgstr "تأیید کپچا ناموفق بود."
-
-#: ⁨include/captcha - Copy.php⁩:96 include/captcha.php:114
-msgid "Please complete the captcha."
-msgstr "لطفا کپچا را کامل کنید."
-
-#: include/captcha.php:73
+#: ⁨include/New folder/captcha - Copy (2).php⁩:77
+#: ⁨include/New folder/captcha - Copy (3).php⁩:77
+#: ⁨include/New folder/captcha - Copy (4).php⁩:76
+#: ⁨include/New folder/captcha - Copy (5).php⁩:104
+#: ⁨include/New folder/captcha - Copy (6).php⁩:83
+#: ⁨include/New folder/captcha - Copy.php⁩:77 ⁨include/captcha - Copy.php⁩:85
+#: include/captcha-next.php:85 include/captcha.php:82
 msgid "Please enter the correct answer"
 msgstr "لطفا پاسخ صحیح وارد کنید"
 
-#: include/captcha.php:95
+#: ⁨include/New folder/captcha - Copy (2).php⁩:101
+#: ⁨include/New folder/captcha - Copy (3).php⁩:106
+#: ⁨include/New folder/captcha - Copy (4).php⁩:105
+#: ⁨include/New folder/captcha - Copy (5).php⁩:179
+#: ⁨include/New folder/captcha - Copy (6).php⁩:174
+#: ⁨include/New folder/captcha - Copy (6).php⁩:198
+#: ⁨include/New folder/captcha - Copy.php⁩:101 ⁨include/captcha - Copy.php⁩:273
+#: ⁨include/captcha - Copy.php⁩:295 include/captcha-next.php:115
+#: include/captcha.php:289 include/captcha.php:313
 msgid "Unable to verify reCAPTCHA. Please try again."
 msgstr "تأیید reCAPTCHA ممکن نیست. لطفا دوباره امتحان کنید."
 
-#: include/init.php:117 include/settings.php:231
+#: ⁨include/New folder/captcha - Copy (2).php⁩:107
+#: ⁨include/New folder/captcha - Copy (3).php⁩:112
+#: ⁨include/New folder/captcha - Copy (4).php⁩:111
+#: ⁨include/New folder/captcha - Copy (6).php⁩:180
+#: ⁨include/New folder/captcha - Copy.php⁩:107 ⁨include/captcha - Copy.php⁩:223
+#: ⁨include/captcha - Copy.php⁩:279 include/captcha-next.php:121
+#: include/captcha.php:236 include/captcha.php:295
+msgid "Google reCAPTCHA verification failed."
+msgstr "کد کپچا درست نیست."
+
+#: ⁨include/New folder/captcha - Copy (2).php⁩:110
+#: ⁨include/New folder/captcha - Copy (3).php⁩:115
+#: ⁨include/New folder/captcha - Copy (4).php⁩:114
+#: ⁨include/New folder/captcha - Copy (5).php⁩:189
+#: ⁨include/New folder/captcha - Copy (6).php⁩:183
+#: ⁨include/New folder/captcha - Copy (6).php⁩:208
+#: ⁨include/New folder/captcha - Copy.php⁩:110 ⁨include/captcha - Copy.php⁩:209
+#: ⁨include/captcha - Copy.php⁩:305 include/captcha-next.php:124
+#: include/captcha.php:222 include/captcha.php:276 include/captcha.php:299
+msgid "Please complete the reCAPTCHA."
+msgstr "لطفا reCAPTCHA را تکمیل کنید."
+
+#: ⁨include/New folder/captcha - Copy (2).php⁩:115
+#: ⁨include/New folder/captcha - Copy (3).php⁩:121
+#: ⁨include/New folder/captcha - Copy (4).php⁩:120
+#: ⁨include/New folder/captcha - Copy.php⁩:115 include/captcha-next.php:129
+msgid "Nonce verification failed."
+msgstr "تأیید صحت انجام نشد."
+
+#: ⁨include/New folder/captcha - Copy (2).php⁩:126
+#: ⁨include/New folder/captcha - Copy.php⁩:126 include/captcha-next.php:140
+msgid "Captcha verification failed."
+msgstr "تأیید کپچا ناموفق بود."
+
+#: ⁨include/New folder/captcha - Copy (2).php⁩:129
+#: ⁨include/New folder/captcha - Copy.php⁩:129 include/captcha-next.php:143
+msgid "Please complete the captcha."
+msgstr "لطفا کپچا را کامل کنید."
+
+#: ⁨include/New folder/captcha - Copy (3).php⁩:129
+msgid "Captcha expired or not found. Please try again."
+msgstr "کپچا منقضی شده یا پیدا نشد. لطفا دوباره امتحان کنید."
+
+#: ⁨include/New folder/captcha - Copy (3).php⁩:133
+#: ⁨include/New folder/captcha - Copy (4).php⁩:133
+msgid "Captcha verification failed. Incorrect answer."
+msgstr "تأیید کپچا ناموفق بود. پاسخ نادرست."
+
+#: ⁨include/New folder/captcha - Copy (4).php⁩:129
+msgid "Captcha not found or expired. Please try again."
+msgstr "کپچا پیدا نشد یا منقضی شده است. لطفا دوباره امتحان کنید."
+
+#: ⁨include/New folder/captcha - Copy (5).php⁩:30
+#: ⁨include/New folder/captcha - Copy (5).php⁩:38
+#: ⁨include/New folder/captcha - Copy (6).php⁩:26
+#: ⁨include/New folder/captcha - Copy (6).php⁩:33 ⁨include/captcha - Copy.php⁩:28
+#: ⁨include/captcha - Copy.php⁩:35 include/captcha.php:26 include/captcha.php:33
+msgid "Recaptcha site key not defined"
+msgstr "کلید سایت Recaptcha تعریف نشده است"
+
+#: ⁨include/New folder/captcha - Copy (5).php⁩:150
+msgid "Recaptcha site key is missing or invalid."
+msgstr "کلید سایت Recaptcha وجود ندارد یا نامعتبر است."
+
+#: ⁨include/New folder/captcha - Copy (5).php⁩:158
+#: ⁨include/New folder/captcha - Copy (6).php⁩:153 ⁨include/captcha - Copy.php⁩:201
+#: ⁨include/captcha - Copy.php⁩:252 include/captcha.php:214 include/captcha.php:267
+msgid "Incorrect CAPTCHA answer. Please try again."
+msgstr "پاسخ CAPTCHA نادرست است. لطفا دوباره امتحان کنید."
+
+#: ⁨include/New folder/captcha - Copy (5).php⁩:161
+#: ⁨include/New folder/captcha - Copy (6).php⁩:156
+msgid "Please answer the CAPTCHA question."
+msgstr "لطفا به سوال CAPTCHA پاسخ دهید."
+
+#: ⁨include/New folder/captcha - Copy (5).php⁩:186
+msgid "Google reCAPTCHA verification failed or suspicious activity detected."
+msgstr "تأیید Google reCAPTCHA ناموفق بود یا فعالیت مشکوکی شناسایی شد."
+
+#: ⁨include/New folder/captcha - Copy (6).php⁩:204 ⁨include/captcha - Copy.php⁩:301
+#: include/captcha.php:319
+msgid "Google reCAPTCHA validation failed or suspicious activity detected."
+msgstr "اعتبارسنجی Google reCAPTCHA ناموفق بود یا فعالیت مشکوکی شناسایی شد."
+
+#: ⁨include/captcha - Copy.php⁩:205 include/captcha.php:218
+msgid "CAPTCHA answer is required."
+msgstr "پاسخ CAPTCHA الزامی است."
+
+#: ⁨include/init - Copy.php⁩:116 include/init.php:116 include/settings.php:294
 msgid "You do not have permission to access this page!"
 msgstr "شما اجازه دسترسی به این صفحه را ندارید!"
 
-#: include/init.php:119 include/init.php:121 include/init.php:123
-msgid "Protected By Creative WP Login Page"
-msgstr "محافظت شده توسط صفحه ورود خلاقانه وردپرس"
+#: ⁨include/init - Copy.php⁩:119 ⁨include/init - Copy.php⁩:121
+#: ⁨include/init - Copy.php⁩:123 include/init.php:119 include/init.php:121
+#: include/init.php:123
+msgid "Protected By WP Irani"
+msgstr "محافظت شده توسط وردپرس ایرانی"
 
-#: include/settings.php:9
+#: include/settings.php:9 include/settings.php:198
 msgid "Style"
 msgstr "طرح"
 
@@ -68,7 +162,7 @@ msgstr "طرح"
 msgid "Choose style of login page"
 msgstr "طرح صفحه ورود را انتخاب کنید"
 
-#: include/settings.php:16 include/settings.php:90
+#: include/settings.php:16 include/settings.php:90 include/settings.php:205
 msgid "Default"
 msgstr "پیشفرض"
 
@@ -140,13 +234,13 @@ msgstr "تصویر پس زمینه سفارشی از آدرس"
 msgid ""
 "Enter the appropriate image link for the background of the login page. "
 "Recommended image size: 1280x 720. This image affects the above 2 items. Leave "
-"this field blank if you want to apply the default image of the plugin designs "
-"or the image uploaded by you on the login page."
+"this field blank if you want to apply the default image of the plugin designs or "
+"the image uploaded by you on the login page."
 msgstr ""
-"لینک تصویر مناسب برای پس زمینه صفحه ورود را وارد نمایید. اندازه تصویر "
-"پیشنهادی : ۱۲۸۰x ۷۲۰. این تصویر بر ۲ مورد بالا تاثیر گذار است. اگر میخواهید "
-"تصویر پیش فرض طرح های افزونه و یا تصویر آپلود شده توسط خودتون رو در صفحه ورود "
-"اعمال کنید ، این فیلد را خالی بگذارید."
+"لینک تصویر مناسب برای پس زمینه صفحه ورود را وارد نمایید. اندازه تصویر پیشنهادی : "
+"۱۲۸۰x ۷۲۰. این تصویر بر ۲ مورد بالا تاثیر گذار است. اگر میخواهید تصویر پیش فرض "
+"طرح های افزونه و یا تصویر آپلود شده توسط خودتون رو در صفحه ورود اعمال کنید ، این "
+"فیلد را خالی بگذارید."
 
 #: include/settings.php:78
 msgid "Box Shadow"
@@ -201,8 +295,7 @@ msgid "Change Logo URL To Home"
 msgstr "تغییر لینک لوگو به صفحه اصلی"
 
 #: include/settings.php:105
-msgid ""
-"This option changes the URL of the logo on the login page to the main page."
+msgid "This option changes the URL of the logo on the login page to the main page."
 msgstr "این گزینه URL لوگو را در صفحه ورود به صفحه اصلی تغییر می دهد."
 
 #: include/settings.php:110
@@ -238,120 +331,136 @@ msgid "Disable"
 msgstr "غیر فعال"
 
 #: include/settings.php:133
-msgid "Google reCAPTCHA(v2)"
-msgstr "ریکپچای گوگل(نسخه 2)"
+msgid "Google reCAPTCHA(v2-checkbox)"
+msgstr "کپچای گوگل(نسخه2- Checkbox)"
 
 #: include/settings.php:134
+msgid "Google reCAPTCHA(v2-invisible)"
+msgstr "کپچای گوگل(نسخه2-مخفی)"
+
+#: include/settings.php:135
+msgid "Google reCAPTCHA(v3)"
+msgstr "ریکپچای گوگل(نسخه 3)"
+
+#: include/settings.php:136
 msgid "Simple Math Captcha"
 msgstr "کپچای ساده ریاضی"
 
-#: include/settings.php:139
+#: include/settings.php:141 include/settings.php:160 include/settings.php:179
 msgid "reCAPTCHA Site Key"
 msgstr "کلید سایت گوگل Recaptcha"
 
-#: include/settings.php:141
+#: include/settings.php:143 include/settings.php:162 include/settings.php:181
 msgid "Enter your Google reCAPTCHA site key."
 msgstr "کلید سایت Google reCAPTCHA خود را وارد کنید."
 
-#: include/settings.php:148
+#: include/settings.php:151 include/settings.php:170 include/settings.php:189
 msgid "reCAPTCHA Secret Key"
 msgstr "کلید مخفی reCAPTCHA"
 
-#: include/settings.php:150
+#: include/settings.php:153 include/settings.php:172 include/settings.php:191
 msgid "Enter your Google reCAPTCHA secret key."
 msgstr "کلید مخفی Google reCAPTCHA خود را وارد کنید."
 
-#: include/settings.php:158
+#: include/settings.php:200
+msgid "Choose style of show Math"
+msgstr "سبک نمایش ریاضی را انتخاب کنید"
+
+#: include/settings.php:209
+msgid "Old style"
+msgstr "سبک قدیمی"
+
+#: include/settings.php:221
 msgid "Display mode"
 msgstr "حالت نمایش"
 
-#: include/settings.php:160
+#: include/settings.php:223
 msgid "Choose how to display icons"
 msgstr "نحوه نمایش نمادها را انتخاب کنید"
 
-#: include/settings.php:163
+#: include/settings.php:226
 msgid "Vertical"
 msgstr "عمودی"
 
-#: include/settings.php:164
+#: include/settings.php:227
 msgid "Horizontal"
 msgstr "افقی"
 
-#: include/settings.php:169
+#: include/settings.php:232
 msgid "<i class=\"fab fa-instagram\"></i> Instagram username"
 msgstr "<i class=\"fab fa-instagram\"></i> نام کاربری اینستاگرام"
 
-#: include/settings.php:171
+#: include/settings.php:234
 msgid "Type your Instagram username. ex: masoud.nkh"
 msgstr "نام کاربری اینستاگرام خود را تایپ کنید. مثال: masoud_nkh"
 
-#: include/settings.php:176
+#: include/settings.php:239
 msgid "<i class=\"fab fa-telegram\"></i> Telegram username"
 msgstr "<i class=\"fab fa-telegram\"></i> نام کاربری تلگرام"
 
-#: include/settings.php:178
+#: include/settings.php:241
 msgid "Type your Telegram username. ex: masoud_nkh"
 msgstr "نام کاربری تلگرام خود را تایپ کنید. مثال: masoud_nkh"
 
-#: include/settings.php:183
+#: include/settings.php:246
 msgid "<i class=\"fab fa-pinterest\"></i> Pinterest username"
 msgstr "<i class=\"fab fa-pinterest\"></i> نام کاربری پینترست"
 
-#: include/settings.php:185
+#: include/settings.php:248
 msgid "Type your Pinterest username. ex: masoudkhodabakhsh"
 msgstr "نام کاربری پینترست خود را تایپ کنید. مثال: masoudkhodabakhsh"
 
-#: include/settings.php:190
+#: include/settings.php:253
 msgid "<i class=\"fab fa-whatsapp\"></i> Whatsapp number"
 msgstr "<i class=\"fab fa-whatsapp\"></i> شماره واتس‌اپ"
 
-#: include/settings.php:192
+#: include/settings.php:255
 msgid "Type your Whatsapp phone number with country code. ex: 989211234567"
 msgstr "شماره تلفن واتساپ خود را با کد کشور تایپ کنید. مثال: 989211234567"
 
-#: include/settings.php:197
+#: include/settings.php:260
 msgid "<i class=\"fab fa-facebook\"></i> Facebook username"
 msgstr "<i class=\"fab fa-facebook\"></i> نام کاربری فیس بوک"
 
-#: include/settings.php:199
+#: include/settings.php:262
 msgid "Type your Facebook username. ex: masoudkhodabakhsh"
 msgstr "نام کاربری فیسبوک خود را تایپ کنید. مثال: masoudkhodabakhsh"
 
-#: include/settings.php:204
+#: include/settings.php:267
 msgid "<i class=\"fab fa-x-twitter\"></i> Twitter username"
 msgstr "<i class=\"fab fa-x-twitter\"></i> نام کاربری توییتر"
 
-#: include/settings.php:206
+#: include/settings.php:269
 msgid "Type your Twitter username. ex: masoudkhodabakhsh"
 msgstr "نام کاربری توییتر خود را تایپ کنید. مثال: masoudkhodabakhsh"
 
-#: include/settings.php:211
+#: include/settings.php:274
 msgid "<i class=\"fab fa-linkedin\"></i> Linkedin username"
 msgstr "<i class=\"fab fa-linkedin\"></i> نام کاربری لینکدین"
 
-#: include/settings.php:213
+#: include/settings.php:276
 msgid "Type your Linkedin username. ex: masoudkhodabakhsh"
 msgstr "نام کاربری لینکیداین خود را تایپ کنید. مثال: masoudkhodabakhsh"
 
-#: include/settings.php:219
+#: include/settings.php:282
 msgid "Custom Login URL"
 msgstr "آدرس ورود سفارشی"
 
-#: include/settings.php:221
+#: include/settings.php:284
 msgid ""
-"Type the address you want to use, for example: secadmin. Please use only "
-"English letters and numbers (Nothing else works). The WordPress admin page will "
-"be available through this address, for example: https://site.com/secadmin"
+"Type the address you want to use, for example: secadmin. Please use only English "
+"letters and numbers (Nothing else works). The WordPress admin page will be "
+"available through this address, for example: https://site.com/secadmin"
 msgstr ""
 "آدرسی که میخواهید استفاده کنید وارد کنید، مثلا: secadmin. لطفا فقط حروف و اعداد "
 "انگلیسی استفاده کنید(چیز دیگه کار نمیده). صفحه مدیریت از این به بعد با این آدرس "
 "در دسترس قرار میگیره، مثلا : https://site.com/secadmin"
 
-#: include/settings.php:227
+#: include/settings.php:290
 msgid "Error message"
 msgstr "پیام خطا"
 
-#: include/settings.php:229
+#: include/settings.php:292
 msgid ""
 "Enter the message you want to display when a person wants to log in with wp-"
 "admin or wp-login URLs"
@@ -359,67 +468,67 @@ msgstr ""
 "پیامی که میخواهید هنگام ورود یک کاربر با آدرس های wp-login یا wp-admin نمایش "
 "داده شود را وارد کنید"
 
-#: include/settings.php:235
+#: include/settings.php:298
 msgid "Error page style"
 msgstr "طرح صفحه خطا"
 
-#: include/settings.php:237
+#: include/settings.php:300
 msgid "Select access error page design style."
 msgstr "طرح صفحه خطای دسترسی را انتخاب کنید."
 
-#: include/settings.php:241
+#: include/settings.php:304
 msgid "Default wordpress style"
 msgstr "طرح پیش فرض وردپرس"
 
-#: include/settings.php:242
+#: include/settings.php:305
 msgid "Style 1"
 msgstr "استایل 1"
 
-#: include/settings.php:243
+#: include/settings.php:306
 msgid "Style 2"
 msgstr "استایل 2"
 
-#: include/settings.php:251
+#: include/settings.php:313
 msgid "username or email address"
 msgstr "نام کاربری یا نشانی ایمیل"
 
-#: include/settings.php:253
+#: include/settings.php:315
 msgid "Change <span class=\"lable\">username or email address</span> label text"
 msgstr "تغییر متن لیبل <span class=\"lable\">نام کاربری یا نشانی ایمیل</span>"
 
-#: include/settings.php:258
+#: include/settings.php:320
 msgid "Password"
 msgstr "رمز عبور"
 
-#: include/settings.php:260
+#: include/settings.php:322
 msgid "Change <span class=\"lable\">Password</span> label text"
 msgstr "تغییر متن لیبل <span class=\"lable\">رمز عبور</span>"
 
-#: include/settings.php:265
+#: include/settings.php:327
 msgid "Remember me"
 msgstr "مرا به خاطر بسپار"
 
-#: include/settings.php:267
+#: include/settings.php:329
 msgid "Change <span class=\"lable\">Remember me</span> label text"
 msgstr "تغییر متن لیبل <span class=\"lable\">مرا به خاطر بسپار</span>"
 
-#: include/settings.php:272
+#: include/settings.php:334
 msgid "Lost your password?"
 msgstr "رمز عبورتان را گم کرده اید؟"
 
-#: include/settings.php:274
+#: include/settings.php:336
 msgid "Change <span class=\"lable\">Lost your password?</span> label text"
 msgstr "تغییر متن لیبل <span class=\"lable\">رمز عبورتان را گم کرده‌اید؟</span>"
 
-#: include/settings.php:279
+#: include/settings.php:341
 msgid "Log in"
 msgstr "ورود"
 
-#: include/settings.php:281
+#: include/settings.php:343
 msgid "Change <span class=\"lable\">Log in</span> button label text"
 msgstr "تغییر متن لیبل <span class=\"lable\">ورود</span>"
 
-#: include/settings.php:288
+#: include/settings.php:350
 msgid ""
 "Change <span class=\"lable\">Solve this</span> text when Simple math captcha "
 "enabled"
@@ -427,102 +536,116 @@ msgstr ""
 "تغییر متن <span class=\"lable\">اینو حل کن</span> هنگامی که کپچای ساده ریاضی "
 "فعال هست"
 
-#: include/settings.php:303
+#: include/settings.php:357
 msgid "WP login page effect style"
 msgstr "طرح افکت صفحه ورود"
 
-#: include/settings.php:305
+#: include/settings.php:359
 msgid "Select effect style if you want to have beautifull wordpress login page"
 msgstr "افکتی که میخواهید در صفحه ورود داشته باشید را انتخاب کنید"
 
-#: include/settings.php:309
+#: include/settings.php:363
 msgid "Without effect"
 msgstr "بدون افکت"
 
-#: include/settings.php:310
+#: include/settings.php:364
 msgid "Square bubble"
 msgstr "حباب مربعی"
 
-#: include/settings.php:311
+#: include/settings.php:365
 msgid "Circle bubble"
 msgstr "حباب دایره‌ای"
 
-#: include/settings.php:312
+#: include/settings.php:366
 msgid "Pulsating ring"
 msgstr "حلقه‌های نبض‌دار"
 
-#: include/settings.php:313
+#: include/settings.php:367
 msgid "Wandering balloon"
 msgstr "بالن سرگردان"
 
-#: include/settings.php:446
+#: include/settings.php:368
+msgid "Snow ball"
+msgstr "توپ برفی"
+
+#: include/settings.php:369
+msgid "Snow fall"
+msgstr "بارش برف"
+
+#: include/settings.php:375
+msgid "Snow fall effect maybe slow on some mobile devices (below 20%)"
+msgstr "افکت بارش برف ممکن است در برخی از دستگاه های تلفن همراه کند باشد (زیر 20٪)"
+
+#: include/settings.php:522
 msgid "Select"
 msgstr "انتخاب"
 
-#: include/settings.php:450
+#: include/settings.php:526
 msgid "Clear"
 msgstr "پاکسازی"
 
-#: include/settings.php:528 include/settings.php:737
-msgid "Creative Wordpress Login Page Settings"
+#: include/settings.php:615 include/settings.php:842
+msgid "Creative WordPress Login Page Settings"
 msgstr "تنظیمات صفحه ورود خلاقانه وردپرس"
 
-#: include/settings.php:532
+#: include/settings.php:619
 msgid "General"
 msgstr "اصلی"
 
-#: include/settings.php:533
+#: include/settings.php:620
 msgid "captcha"
 msgstr "کد امنیتی"
 
-#: include/settings.php:534
+#: include/settings.php:621
 msgid "Social"
 msgstr "شبکه های اجتماعی"
 
-#: include/settings.php:535
+#: include/settings.php:622
 msgid "Login Security"
 msgstr "امنیت ورود"
 
-#: include/settings.php:536
+#: include/settings.php:623
 msgid "Label Changer"
 msgstr "تغییر برچسب‌ها"
 
-#: include/settings.php:537
+#: include/settings.php:624
 msgid "Effect manager"
 msgstr "مدیریت افکت"
 
-#: include/settings.php:553
+#: include/settings.php:640
 msgid "You can protect your login form with captcha"
 msgstr "شما می توانید فرم ورود خود را با کپچا محافظت کنید"
 
-#: include/settings.php:558
+#: include/settings.php:645
 msgid ""
 "With this section, you can add a floating social media toolbar to your login "
 "page. Empty field for remove icon."
 msgstr ""
-"با استفاده از این بخش می توانید یک نوار ابزار رسانه های اجتماعی شناور را به "
-"صفحه ورود خود اضافه کنید. برای حذف آیکون ، فیلد مربوطه را خالی بگذارید."
+"با استفاده از این بخش می توانید یک نوار ابزار رسانه های اجتماعی شناور را به صفحه "
+"ورود خود اضافه کنید. برای حذف آیکون ، فیلد مربوطه را خالی بگذارید."
 
-#: include/settings.php:563
+#: include/settings.php:650
 msgid ""
-"With this section, you can restrict access to the WordPress login and admin "
-"page to a specific address."
+"With this section, you can restrict access to the WordPress login and admin page "
+"to a specific address."
 msgstr ""
 "با استفاده از این بخش می توانید دسترسی به صفحه ورود وردپرس و مدیریت را به یک "
 "آدرس خاص محدود کنید."
 
-#: include/settings.php:568
+#: include/settings.php:655
 msgid ""
-"With this section, you can change label text of all thing in wordpress login "
-"page"
-msgstr "با استفاده از این بخش میتونید متن لیبل های صفحه ورود رو تغییر دهید"
+"With this section, you can change label text of all thing in WordPress login page"
+msgstr ""
+"با استفاده از این بخش می توانید متن برچسب همه چیز را در صفحه ورود به وردپرس "
+"تغییر دهید"
 
-#: include/settings.php:573
-msgid ""
-"With this section, you can set some effect for show in wordpress login page"
-msgstr "با استفاده از این بخش میتونید افکت روی صفحه ورود تنظیم کنید"
+#: include/settings.php:660
+msgid "With this section, you can set some effect for show in WordPress login page"
+msgstr ""
+"با استفاده از این بخش می توانید مقداری افکت برای نمایش در صفحه ورود به وردپرس "
+"تنظیم کنید"
 
-#: include/settings.php:738
+#: include/settings.php:843
 msgid "CWLP Settings"
 msgstr "تنظیمات CWLP"
 
@@ -544,7 +667,7 @@ msgstr "وردپرس ایرانی"
 
 #. Author URI of the plugin/theme
 msgid "https://wpirani.ir/"
-msgstr ""
+msgstr "https://wpirani.ir/"
 
 #, fuzzy
 #~| msgid "Default"
@@ -605,8 +728,8 @@ msgstr ""
 
 #, fuzzy
 #~| msgid ""
-#~| "With this section, you can add a floating social media toolbar to your "
-#~| "login page. Empty field for remove icon."
+#~| "With this section, you can add a floating social media toolbar to your login "
+#~| "page. Empty field for remove icon."
 #~ msgid "With ta floating social media toolbar to your love icon."
 #~ msgstr ""
 #~ "با استفاده از این بخش می توانید یک نوار ابزار رسانه های اجتماعی شناور را به "

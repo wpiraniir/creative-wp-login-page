@@ -3,10 +3,10 @@
 **Contributors:** masoudnkh \
 **Donate link:** https://zarinp.al/wpirani.ir \
 **Tags:** login page, creative login page, login, login page customizer, custom login \
-**Requires at least:** 5.1 \
+**Requires at least:** 5.5 \
 **Tested up to:** 6.7.1 \
-**Stable tag:** 9.2 \
-**Requires PHP:** 7.2 \
+**Stable tag:** 10.1 \
+**Requires PHP:** 7.4 \
 **License:** GPLv3 or later \
 **License URI:** https://www.gnu.org/licenses/gpl-3.0.html
  
@@ -48,8 +48,8 @@ It will also be added to the plugin in the near future
 
 ### Minimum Requirements
 
-* WordPress 5.1 or greater
-* PHP version 7.2 or greater
+* WordPress 5.5 or greater
+* PHP version 7.4 or greater
 * MySQL version 5.0 or greater
 
 ### Installation
@@ -61,19 +61,19 @@ It will also be added to the plugin in the near future
 
 ## Screenshots
 
-### 1. **Custom Login Page Preview.** (RTL).
+### 1. **Login page with all feauture preview.** (RTL)
 
 [missing image]
 
-### 2. **Custom Login Page Preview.** (LTR).
+### 2. **Login page with all feauture preview.** (LTR)
 
 [missing image]
 
-### 3. **General Settings Tab.** (RTL)
+### 3. ** Settings page** (RTL)
 
 [missing image]
 
-### 4. **General Settings Tab.** (LTR)
+### 4. ** Settings page** (LTR)
 
 [missing image]
 
@@ -85,20 +85,70 @@ It will also be added to the plugin in the near future
 
 [missing image]
 
-### 7. **Change Login Form Position**
+### 7. **Change Login Form Position** (RTL)
 
 [missing image]
 
-### 8. **Login Form Captcha Settings**
+### 8. **Change Login Form Position** (LTR)
 
 [missing image]
 
-### 9. **Change Login Form Text Settings**
+### 9. **Captcha security settings** (RTL)
+
+[missing image]
+
+### 10. **Captcha security settings** (LTR)
+
+[missing image]
+
+### 11. **Selecting a security captcha in four different ways** (RTL)
+
+[missing image]
+
+### 12. **Selecting a security captcha in four different ways** (LTR)
+
+[missing image]
+
+### 13. **Ability to change Login Form Text**
+
+[missing image]
+
+### 14. **Choose the effect for the login page in six different modes** (RTL)
+
+[missing image]
+
+### 15. **Choose the effect for the login page in six different modes** (LTR)
 
 [missing image]
 
 
 ## Changelog
+
+### 10.1
+
+* Fixed: Error "An active PHP session was detected" in health page
+* Fixed: Error "The REST API encountered an error" in health page
+* Improvement: More compatible with GD library
+* Improvement security: session of captcha
+
+### 10.0
+
+* Added: Choose a security captcha from four different methods (2 Google version 2 captcha models, Google version 3 captcha, two mathematical captcha models)
+* Added: Math captcha with a new style
+* Added: Two new winter effects (snowball, real snowfall)
+* Added: Now you have captcha on the registration page
+* Improvement: We improved the plugin security
+* Improvement: We made the plugin settings page more attractive
+* Improvement: We rewrote and improved some plugin codes
+* Improvement: We increased the plugin speed
+* Improvement: We removed the plugin's extra Jquery codes
+* Improvement: We improved the ability to change the WordPress login page address and regularly upgraded security issues with it
+* Improvement: We optimized the css codes
+* Fixed: We fixed the problem of simple mathematical captcha being displayed in a messy way
+* Fixed: The login form not moving to the right
+* Fixed: The problem of the captcha not working properly for the form input
+* Fixed: We fixed the problem of social networks not displaying horizontally
+* And minor improvements and changes to some parts of the plugin
 
 ### 9.2 - 2024-12-01
 
@@ -253,7 +303,6 @@ It will also be added to the plugin in the near future
 
 ## Upgrade Notice
 
-### 9.2
+### 10.1
 
-* Fixed: Interference with REST API and PHP Active Session
-* Improving the security of CAPTCHA codes
+* Thanks for supporting us

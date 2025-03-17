@@ -2,10 +2,10 @@
 Contributors: masoudnkh
 Donate link: https://zarinp.al/wpirani.ir
 Tags: login page, creative login page, login, login page customizer, custom login
-Requires at least: 5.1
+Requires at least: 5.5
 Tested up to: 6.7.1
-Stable tag: 9.2
-Requires PHP: 7.2
+Stable tag: 10.1
+Requires PHP: 7.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
  
@@ -41,8 +41,8 @@ It will also be added to the plugin in the near future
 == Installation ==
 = Minimum Requirements =
 
-* WordPress 5.1 or greater
-* PHP version 7.2 or greater
+* WordPress 5.5 or greater
+* PHP version 7.4 or greater
 * MySQL version 5.0 or greater
 
 = Installation =
@@ -52,17 +52,47 @@ It will also be added to the plugin in the near future
 4. You can now view the changes made to the login page by going to your site login page
 
 == Screenshots ==
-1. **Custom Login Page Preview.** (RTL).
-2. **Custom Login Page Preview.** (LTR).
-3. **General Settings Tab.** (RTL)
-4. **General Settings Tab.** (LTR)
+1. **Login page with all feauture preview.** (RTL)
+2. **Login page with all feauture preview.** (LTR)
+3. ** Settings page** (RTL)
+4. ** Settings page** (LTR)
 5. **Change Login URL Settings **Change wp-admin Address with Display Message (RTL)
 6. **Change Login URL Settings **Change wp-admin Address with Display Message (LTR)
-7. **Change Login Form Position**
-8. **Login Form Captcha Settings**
-9. **Change Login Form Text Settings**
+7. **Change Login Form Position** (RTL)
+8. **Change Login Form Position** (LTR)
+9. **Captcha security settings** (RTL)
+10. **Captcha security settings** (LTR)
+11. **Selecting a security captcha in four different ways** (RTL)
+12. **Selecting a security captcha in four different ways** (LTR)
+13. **Ability to change Login Form Text**
+14. **Choose the effect for the login page in six different modes** (RTL)
+15. **Choose the effect for the login page in six different modes** (LTR)
 
 == Changelog ==
+= 10.1 =
+* Fixed: Error "An active PHP session was detected" in health page
+* Fixed: Error "The REST API encountered an error" in health page
+* Improvement: More compatible with GD library
+* Improvement security: session of captcha
+
+= 10.0 =
+* Added: Choose a security captcha from four different methods (2 Google version 2 captcha models, Google version 3 captcha, two mathematical captcha models)
+* Added: Math captcha with a new style
+* Added: Two new winter effects (snowball, real snowfall)
+* Added: Now you have captcha on the registration page
+* Improvement: We improved the plugin security
+* Improvement: We made the plugin settings page more attractive
+* Improvement: We rewrote and improved some plugin codes
+* Improvement: We increased the plugin speed
+* Improvement: We removed the plugin's extra Jquery codes
+* Improvement: We improved the ability to change the WordPress login page address and regularly upgraded security issues with it
+* Improvement: We optimized the css codes
+* Fixed: We fixed the problem of simple mathematical captcha being displayed in a messy way
+* Fixed: The login form not moving to the right
+* Fixed: The problem of the captcha not working properly for the form input
+* Fixed: We fixed the problem of social networks not displaying horizontally
+* And minor improvements and changes to some parts of the plugin
+
 = 9.2 - 2024-12-01 =
 * Fixed: Interference with REST API and PHP Active Session
 * Improving the security of CAPTCHA codes
@@ -191,6 +221,5 @@ It will also be added to the plugin in the near future
 
 
 == Upgrade Notice ==
-= 9.2 =
-* Fixed: Interference with REST API and PHP Active Session
-* Improving the security of CAPTCHA codes
+= 10.1 =
+* Thanks for supporting us

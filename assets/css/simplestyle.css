@@ -1,0 +1,65 @@
+/* div.cwlp-num {
+	float: left;
+	direction: ltr;
+	background-image: url(../images/cwlp-simple-captcha.webp);
+	background-size: contain;
+	filter: contrast(0.8);
+	padding: 0px 12px;
+	border-radius: 10px;
+	height: 30px;
+	margin-bottom: 2px;
+	align-content: end;
+} */
+/* .solve_this p:has(.cwlp-num) { */
+	/* display: flex; */
+	/* flex-direction: row; */
+	/* justify-content: space-between; */
+/* } */
+
+
+/* div.cwlp-num {
+	float: left;
+	direction: ltr;
+	background-image: url(../images/cwlp-simple-captcha.webp);
+	background-size: contain;
+	filter: contrast(0.8);
+	padding: 5px 12px 0px;
+	border-radius: 10px;
+	height: 70px;
+	margin-bottom: 2px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+} */
+/* p#simplecaptcha {
+	margin-top: -45px;
+	position: relative;
+} */
+.solve_this {
+	font-size: 1rem;
+}
+.cwlp-num {
+    float: right;
+}
+.rtl .cwlp-num {
+    display: inline-flex;
+    direction: ltr;
+    float: left !important;
+}
+
+.solvo-cap {
+	display: inline-flex;
+	margin: 0px 10px 0px 0px;
+}
+.rtl .solvo-cap {
+	display: inline-flex;
+	margin: 0px 0px 0px 10px !important;
+}
+
+span.opera {
+	font-size: 20px;
+	height: 20px;
+	margin: 0px 5px 0px 5px !important;
+}
